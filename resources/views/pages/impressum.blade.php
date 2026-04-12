@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Impressum - Raeumungen</title>
 <meta name="description" content="Firmenname: VIPROTECT GmbHAdresse: Heiligenstädter Str. 32/303 A-1190 WienE-Mail: office@viprotect.atTelefon: tel:+436765055457"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/impressum/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Checklists - Raeumungen</title>
 <meta name="description" content="Der Markt ist voller Anbieter, doch nicht jedes Unternehmen hält, was es verspricht. Achten Sie darauf, dass die Räumungsfirma zertifiziert ist und über alle"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/checklists/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Entrümpelung Wien 1080: Professioneller Service für Ihre Räumung</title>
 <meta name="description" content="Entrümpelung Wien 1080 bietet professionellen Räumungsservice für jeden Bedarf. Erfahren Sie, wie wir Ihnen helfen können. Jetzt den Artikel lesen!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/entrumpelung-in-wien-1080/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

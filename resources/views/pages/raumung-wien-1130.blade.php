@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Räumung Wien 1130: Schnelle und professionelle Entrümpelungslösungen</title>
 <meta name="description" content="Benötigen Sie eine Räumung Wien 1130? Wir bieten schnelle und unkomplizierte Lösungen für Ihre Entsorgung. Zuverlässig, effizient und zu fairen Preisen!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/raumung-wien-1130/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

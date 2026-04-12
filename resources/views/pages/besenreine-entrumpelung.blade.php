@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Effiziente besenreine Entrümpelung: Schnell und unkompliziert handeln</title>
 <meta name="description" content="Erfahren Sie, wie Sie Ihre Entrümpelung schnell und unkompliziert gestalten können. Lesen Sie unseren Artikel für praktische Tipps und effiziente Lösungen!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/besenreine-entrumpelung/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Effiziente Räumung Wien 1140 - Ihr Partner für schnelle Entrümpelungen</title>
 <meta name="description" content="Räumung Wien 1140: Vertrauen Sie auf unsere Expertise für schnelle &amp; unkomplizierte Räumungen. Zuverlässig, effizient &amp; zu fairen Preisen. Kontaktieren Sie uns!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/raumung-wien-1140/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

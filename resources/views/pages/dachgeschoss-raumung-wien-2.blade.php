@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Professionelle Dachgeschoss Räumung Wien – Schnell und zuverlässig</title>
 <meta name="description" content="Professionelle Dachgeschoss Räumung in Wien: schnell, zuverlässig und stressfrei. Erfahren Sie, wie Sie Platz schaffen können. Jetzt Artikel lesen!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/dachgeschoss-raumung-wien-2/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

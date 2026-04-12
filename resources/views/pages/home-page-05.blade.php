@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Home Page 05 - Raeumungen</title>
 <meta name="description" content="For every dollar spent on our travel management services, we’ll return more to you in savings. That’s the main difference."/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/home-page-05/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Räumung Wien: Professionelle Hilfe für stressfreie Entrümpelungen</title>
 <meta name="description" content="Professionelle Räumung Wien: Schnelle, zuverlässige Entsorgung von Möbeln, Sperrmüll und Haushaltsgegenständen. Stressfreie Räumung zu fairen Preisen."/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/raumung-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

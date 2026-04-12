@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Gratis Entrümpelung Wien – Professionelle Räumungen in Wien, NÖ &amp; Burgenland</title>
 <meta name="description" content="Gratis Entrümpelung in Wien: Schnell, kostenlos und zuverlässig – wir räumen Ihr Zuhause oder Büro effizient und umweltfreundlich. Keine versteckten Kosten!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/gratis-entrumpelung-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Effiziente Entrümpelung Wien 1030 – Ihre Lösung für schnelle Räumungen</title>
 <meta name="description" content="Entrümpelung Wien 1030: Schnelle, professionelle und kostengünstige Entrümpelung von Wohnungen und Büros. Zuverlässig und umweltfreundlich. Jetzt anfragen!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/entrumpelung-wien-1030/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

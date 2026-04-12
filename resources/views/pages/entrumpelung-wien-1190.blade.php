@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Effiziente Entrümpelung Wien 1190: Tipps für einen stressfreien Umzug</title>
 <meta name="description" content="Entdecken Sie praktische Tipps für eine stressfreie Entrümpelung Wien 1190. Erleichtern Sie Ihren Umzug – lesen Sie jetzt unseren Artikel!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/entrumpelung-wien-1190/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

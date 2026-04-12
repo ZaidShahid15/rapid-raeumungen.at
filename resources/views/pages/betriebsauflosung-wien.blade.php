@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Effiziente Betriebsauflösung Wien: Ihre Schritt-für-Schritt-Anleitung</title>
 <meta name="description" content="Erfahren Sie, wie Sie Ihre Betriebsauflösung Wien effizient gestalten können. Folgen Sie unserer Schritt-für-Schritt-Anleitung und starten Sie jetzt!"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="/betriebsauflosung-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
