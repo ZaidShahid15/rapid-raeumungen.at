@@ -29,7 +29,7 @@ class FormSubmissionController extends Controller
                 'payload' => $payload,
             ], function ($message) use ($payload, $pagePath) {
                 $replyTo = FormMailHelper::replyTo($payload);
-                $recipientEmail = env('MAIL_TO_ADDRESS', env('MAIL_FROM_ADDRESS', '1zaidshaikh234@gmail.com'));
+                $recipientEmail = env('MAIL_TO_ADDRESS', env('MAIL_FROM_ADDRESS', 'karthaus.media@gmail.com'));
 
                 $message
                     ->to($recipientEmail)

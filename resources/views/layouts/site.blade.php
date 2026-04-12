@@ -6,7 +6,17 @@
         @yield('head')
     </head>
     <body @yield('body_attributes')>
-        @yield('content')
+        @php
+            $pageContent = $__env->yieldContent('content');
+            $pageContent = preg_replace_callback(
+                '/<form\b[^>]*\bmethod=(["\'])post\1[^>]*>/i',
+                static function (array $matches): string {
+                    return $matches[0] . PHP_EOL . csrf_field();
+                },
+                $pageContent
+            );
+        @endphp
+        {!! $pageContent !!}
         <script>
             document.addEventListener('DOMContentLoaded', function () {
                 var csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content');
