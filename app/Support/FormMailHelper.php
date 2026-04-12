@@ -1,0 +1,126 @@
+<?php
+
+namespace App\Support;
+
+class FormMailHelper
+{
+    public static function extractPayload(array $input): array
+    {
+        $payload = [];
+
+        foreach ($input as $key => $value) {
+            if (
+                $key === '_token' ||
+                str_starts_with((string) $key, '_wpcf7') ||
+                str_starts_with((string) $key, '_wp') ||
+                $key === 'g-recaptcha-response'
+            ) {
+                continue;
+            }
+
+            $normalized = self::normalizeValue($value);
+
+            if ($normalized === null || $normalized === '') {
+                continue;
+            }
+
+            $payload[] = [
+                'key' => (string) $key,
+                'label' => self::labelFor((string) $key),
+                'value' => $normalized,
+            ];
+        }
+
+        return $payload;
+    }
+
+    public static function replyTo(array $payload): ?string
+    {
+        foreach ($payload as $item) {
+            $value = is_string($item['value']) ? trim($item['value']) : null;
+
+            if ($value !== null && filter_var($value, FILTER_VALIDATE_EMAIL)) {
+                return $value;
+            }
+        }
+
+        return null;
+    }
+
+    public static function subjectFor(string $pagePath, array $payload): string
+    {
+        $email = self::replyTo($payload);
+        $source = $pagePath === '/' ? 'homepage' : ltrim($pagePath, '/');
+
+        return $email
+            ? "Website form submission from {$source} ({$email})"
+            : "Website form submission from {$source}";
+    }
+
+    private static function normalizeValue(mixed $value): string|null
+    {
+        if (is_array($value)) {
+            $parts = array_filter(array_map(
+                static fn (mixed $item) => self::normalizeValue($item),
+                $value
+            ));
+
+            return $parts === [] ? null : implode(', ', $parts);
+        }
+
+        if (is_bool($value)) {
+            return $value ? 'Yes' : 'No';
+        }
+
+        if ($value === null) {
+            return null;
+        }
+
+        $string = trim((string) $value);
+
+        return $string === '' ? null : $string;
+    }
+
+    private static function labelFor(string $key): string
+    {
+        $labels = [
+            'search-field' => 'Email',
+            'text-475' => 'Name',
+            'email-621' => 'Email',
+            'text-476' => 'Affiliation',
+            'text-477' => 'Phone / Number',
+            'text-478' => 'Inquiry Department',
+            'text-479' => 'Preferred Date',
+            'textarea-527' => 'Message',
+            'text-71' => 'Name',
+            'email-631' => 'Email',
+            'text-72' => 'Website',
+            'textarea-233' => 'Question',
+            'shiping-cun' => 'Shipping From',
+            'shiping-to' => 'Shipping To',
+            'shiping-date' => 'Shipping Date',
+            'shiping-type' => 'Shipping Type',
+            'msg-tm-478' => 'Shipment Details',
+            'mail-aff' => 'Email',
+            'sh-name' => 'Name',
+            'preferred_contact_method' => 'Preferred Contact Method',
+            'category' => 'Service Category',
+            'postal_code' => 'Postal Code',
+            'location' => 'Location',
+            'address' => 'Address',
+            'time' => 'Time Preference',
+            'date_from' => 'Date From',
+            'date_to' => 'Date To',
+            'selected_date' => 'Selected Date',
+            'name' => 'Name',
+            'email' => 'Email',
+            'phone' => 'Phone Number',
+        ];
+
+        if (isset($labels[$key])) {
+            return $labels[$key];
+        }
+
+        return ucwords(str_replace(['-', '_'], ' ', $key));
+    }
+}
