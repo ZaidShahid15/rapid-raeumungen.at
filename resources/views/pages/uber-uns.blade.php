@@ -12,7 +12,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="/xmlrpc.php/" />
-	
+
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Über Uns - Raeumungen</title>
 <meta name="description" content="4,9 von 5,0 aus 452 Bewertungen"/>
@@ -139,7 +139,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		.ft-header-section.header-style-one .ft-header-main-menu {
 			background-color: ;
 		}
-	
+
 /*# sourceURL=fastrans-main-style-inline-css */
 </style>
 <link rel='stylesheet' id='fastrans-updated-style-css' href='/wp-content/themes/fastrans/assets/css/updated-style.css' type='text/css' media='all' />
@@ -350,7 +350,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 /*! Slider Revolution 7.0 - Page Processor */
 !function(){"use strict";window.SR7??={},window._tpt??={},SR7.version="Slider Revolution 6.7.16",_tpt.getWinDim=function(t){_tpt.screenHeightWithUrlBar??=window.innerHeight;let e=SR7.F?.modal?.visible&&SR7.M[SR7.F.module.getIdByAlias(SR7.F.modal.requested)];_tpt.scrollBar=window.innerWidth!==document.documentElement.clientWidth||e&&window.innerWidth!==e.c.module.clientWidth,_tpt.winW=window.innerWidth-(_tpt.scrollBar||"prepare"==t?_tpt.scrollBarW??_tpt.mesureScrollBar():0),_tpt.winH=window.innerHeight,_tpt.winWAll=document.documentElement.clientWidth},_tpt.getResponsiveLevel=function(t,e){SR7.M[e];return _tpt.closestGE(t,_tpt.winWAll)},_tpt.mesureScrollBar=function(){let t=document.createElement("div");return t.className="RSscrollbar-measure",t.style.width="100px",t.style.height="100px",t.style.overflow="scroll",t.style.position="absolute",t.style.top="-9999px",document.body.appendChild(t),_tpt.scrollBarW=t.offsetWidth-t.clientWidth,document.body.removeChild(t),_tpt.scrollBarW},_tpt.loadCSS=async function(t,e,s){return s?_tpt.R.fonts.required[e].status=1:(_tpt.R[e]??={},_tpt.R[e].status=1),new Promise(((n,i)=>{if(_tpt.isStylesheetLoaded(t))s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n();else{const l=document.createElement("link");l.rel="stylesheet";let o="text",r="css";l["type"]=o+"/"+r,l.href=t,l.onload=()=>{s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n()},l.onerror=()=>{s?_tpt.R.fonts.required[e].status=3:_tpt.R[e].status=3,i(new Error(`Failed to load CSS: ${t}`))},document.head.appendChild(l)}}))},_tpt.addContainer=function(t){const{tag:e="div",id:s,class:n,datas:i,textContent:l,iHTML:o}=t,r=document.createElement(e);if(s&&""!==s&&(r.id=s),n&&""!==n&&(r.className=n),i)for(const[t,e]of Object.entries(i))"style"==t?r.style.cssText=e:r.setAttribute(`data-${t}`,e);return l&&(r.textContent=l),o&&(r.innerHTML=o),r},_tpt.collector=function(){return{fragment:new DocumentFragment,add(t){var e=_tpt.addContainer(t);return this.fragment.appendChild(e),e},append(t){t.appendChild(this.fragment)}}},_tpt.isStylesheetLoaded=function(t){let e=t.split("?")[0];return Array.from(document.querySelectorAll('link[rel="stylesheet"], link[rel="preload"]')).some((t=>t.href.split("?")[0]===e))},_tpt.preloader={requests:new Map,preloaderTemplates:new Map,show:function(t,e){if(!e||!t)return;const{type:s,color:n}=e;if(s<0||"off"==s)return;const i=`preloader_${s}`;let l=this.preloaderTemplates.get(i);l||(l=this.build(s,n),this.preloaderTemplates.set(i,l)),this.requests.has(t)||this.requests.set(t,{count:0});const o=this.requests.get(t);clearTimeout(o.timer),o.count++,1===o.count&&(o.timer=setTimeout((()=>{o.preloaderClone=l.cloneNode(!0),o.anim&&o.anim.kill(),void 0!==_tpt.gsap?o.anim=_tpt.gsap.fromTo(o.preloaderClone,1,{opacity:0},{opacity:1}):o.preloaderClone.classList.add("sr7-fade-in"),t.appendChild(o.preloaderClone)}),150))},hide:function(t){if(!this.requests.has(t))return;const e=this.requests.get(t);e.count--,e.count<0&&(e.count=0),e.anim&&e.anim.kill(),0===e.count&&(clearTimeout(e.timer),e.preloaderClone&&(e.preloaderClone.classList.remove("sr7-fade-in"),e.anim=_tpt.gsap.to(e.preloaderClone,.3,{opacity:0,onComplete:function(){e.preloaderClone.remove()}})))},state:function(t){if(!this.requests.has(t))return!1;return this.requests.get(t).count>0},build:(t,e="#ffffff",s="")=>{if(t<0||"off"===t)return null;const n=parseInt(t);if(t="prlt"+n,isNaN(n))return null;if(_tpt.loadCSS(SR7.E.plugin_url+"public/css/preloaders/t"+n+".css","preloader_"+t),isNaN(n)||n<6){const i=`background-color:${e}`,l=1===n||2==n?i:"",o=3===n||4==n?i:"",r=_tpt.collector();["dot1","dot2","bounce1","bounce2","bounce3"].forEach((t=>r.add({tag:"div",class:t,datas:{style:o}})));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`,datas:{style:l}});return r.append(d),d}{let i={};if(7===n){let t;e.startsWith("#")?(t=e.replace("#",""),t=`rgba(${parseInt(t.substring(0,2),16)}, ${parseInt(t.substring(2,4),16)}, ${parseInt(t.substring(4,6),16)}, `):e.startsWith("rgb")&&(t=e.slice(e.indexOf("(")+1,e.lastIndexOf(")")).split(",").map((t=>t.trim())),t=`rgba(${t[0]}, ${t[1]}, ${t[2]}, `),t&&(i.style=`border-top-color: ${t}0.65); border-bottom-color: ${t}0.15); border-left-color: ${t}0.65); border-right-color: ${t}0.15)`)}else 12===n&&(i.style=`background:${e}`);const l=[10,0,4,2,5,9,0,4,4,2][n-6],o=_tpt.collector(),r=o.add({tag:"div",class:"sr7-prl-inner",datas:i});Array.from({length:l}).forEach((()=>r.appendChild(o.add({tag:"span",datas:{style:`background:${e}`}}))));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`});return o.append(d),d}}},SR7.preLoader={show:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.show(e||SR7.M[t].c.module,SR7.M[t]?.settings?.pLoader??{color:"#fff",type:10})},hide:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.hide(e||SR7.M[t].c.module)},state:(t,e)=>_tpt.preloader.state(e||SR7.M[t].c.module)},_tpt.prepareModuleHeight=function(t){window.SR7.M??={},window.SR7.M[t.id]??={},"ignore"==t.googleFont&&(SR7.E.ignoreGoogleFont=!0);let e=window.SR7.M[t.id];if(null==_tpt.scrollBarW&&_tpt.mesureScrollBar(),e.c??={},e.states??={},e.settings??={},e.settings.size??={},t.fixed&&(e.settings.fixed=!0),e.c.module=document.getElementById(t.id),e.c.adjuster=e.c.module.getElementsByTagName("sr7-adjuster")[0],e.c.content=e.c.module.getElementsByTagName("sr7-content")[0],"carousel"==t.type&&(e.c.carousel=e.c.content.getElementsByTagName("sr7-carousel")[0]),null==e.c.module||null==e.c.module)return;t.plType&&t.plColor&&(e.settings.pLoader={type:t.plType,color:t.plColor}),void 0!==t.plType&&"off"!==t.plType&&SR7.preLoader.show(t.id,e.c.module),_tpt.winW||_tpt.getWinDim("prepare"),_tpt.getWinDim();let s=""+e.c.module.dataset?.modal;"modal"==s||"true"==s||"undefined"!==s&&"false"!==s||(e.settings.size.fullWidth=t.size.fullWidth,e.LEV??=_tpt.getResponsiveLevel(window.SR7.G.breakPoints,t.id),t.vpt=_tpt.fillArray(t.vpt,5),e.settings.vPort=t.vpt[e.LEV],void 0!==t.el&&"720"==t.el[4]&&t.gh[4]!==t.el[4]&&"960"==t.el[3]&&t.gh[3]!==t.el[3]&&"768"==t.el[2]&&t.gh[2]!==t.el[2]&&delete t.el,e.settings.size.height=null==t.el||null==t.el[e.LEV]||0==t.el[e.LEV]||"auto"==t.el[e.LEV]?_tpt.fillArray(t.gh,5,-1):_tpt.fillArray(t.el,5,-1),e.settings.size.width=_tpt.fillArray(t.gw,5,-1),e.settings.size.minHeight=_tpt.fillArray(t.mh??[0],5,-1),e.cacheSize={fullWidth:e.settings.size?.fullWidth,fullHeight:e.settings.size?.fullHeight},void 0!==t.off&&(t.off?.t&&(e.settings.size.m??={})&&(e.settings.size.m.t=t.off.t),t.off?.b&&(e.settings.size.m??={})&&(e.settings.size.m.b=t.off.b),t.off?.l&&(e.settings.size.p??={})&&(e.settings.size.p.l=t.off.l),t.off?.r&&(e.settings.size.p??={})&&(e.settings.size.p.r=t.off.r),e.offsetPrepared=!0),_tpt.updatePMHeight(t.id,t,!0))},_tpt.updatePMHeight=(t,e,s)=>{let n=SR7.M[t];var i=n.settings.size.fullWidth?_tpt.winW:n.c.module.parentNode.offsetWidth;i=0===i||isNaN(i)?_tpt.winW:i;let l=n.settings.size.width[n.LEV]||n.settings.size.width[n.LEV++]||n.settings.size.width[n.LEV--]||i,o=n.settings.size.height[n.LEV]||n.settings.size.height[n.LEV++]||n.settings.size.height[n.LEV--]||0,r=n.settings.size.minHeight[n.LEV]||n.settings.size.minHeight[n.LEV++]||n.settings.size.minHeight[n.LEV--]||0;if(o="auto"==o?0:o,o=parseInt(o),"carousel"!==e.type&&(i-=parseInt(e.onw??0)||0),n.MP=!n.settings.size.fullWidth&&i<l||_tpt.winW<l?Math.min(1,i/l):1,e.size.fullScreen||e.size.fullHeight){let t=parseInt(e.fho)||0,s=(""+e.fho).indexOf("%")>-1;e.newh=_tpt.winH-(s?_tpt.winH*t/100:t)}else e.newh=n.MP*Math.max(o,r);if(e.newh+=(parseInt(e.onh??0)||0)+(parseInt(e.carousel?.pt)||0)+(parseInt(e.carousel?.pb)||0),void 0!==e.slideduration&&(e.newh=Math.max(e.newh,parseInt(e.slideduration)/3)),e.shdw&&_tpt.buildShadow(e.id,e),n.c.adjuster.style.height=e.newh+"px",n.c.module.style.height=e.newh+"px",n.c.content.style.height=e.newh+"px",n.states.heightPrepared=!0,n.dims??={},n.dims.moduleRect=n.c.module.getBoundingClientRect(),n.c.content.style.left="-"+n.dims.moduleRect.left+"px",!n.settings.size.fullWidth)return s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)})),void _tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0);_tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0),requestAnimationFrame((function(){s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)}))})),n.earlyResizerFunction||(n.earlyResizerFunction=function(){requestAnimationFrame((function(){_tpt.getWinDim(),_tpt.moduleDefaults(e.id,e),_tpt.updateSlideBg(t,!0)}))},window.addEventListener("resize",n.earlyResizerFunction))},_tpt.buildShadow=function(t,e){let s=SR7.M[t];null==s.c.shadow&&(s.c.shadow=document.createElement("sr7-module-shadow"),s.c.shadow.classList.add("sr7-shdw-"+e.shdw),s.c.content.appendChild(s.c.shadow))},_tpt.bgStyle=async(t,e,s,n,i)=>{const l=SR7.M[t];if((e=e??l.settings).fixed&&!l.c.module.classList.contains("sr7-top-fixed")&&(l.c.module.classList.add("sr7-top-fixed"),l.c.module.style.position="fixed",l.c.module.style.width="100%",l.c.module.style.top="0px",l.c.module.style.left="0px",l.c.module.style.pointerEvents="none",l.c.module.style.zIndex=5e3,l.c.content.style.pointerEvents="none"),null==l.c.bgcanvas){let t=document.createElement("sr7-module-bg"),o=!1;if("string"==typeof e?.bg?.color&&e?.bg?.color.includes("{"))if(_tpt.gradient&&_tpt.gsap)e.bg.color=_tpt.gradient.convert(e.bg.color);else try{let t=JSON.parse(e.bg.color);(t?.orig||t?.string)&&(e.bg.color=JSON.parse(e.bg.color))}catch(t){return}let r="string"==typeof e?.bg?.color?e?.bg?.color||"transparent":e?.bg?.color?.string??e?.bg?.color?.orig??e?.bg?.color?.color??"transparent";if(t.style["background"+(String(r).includes("grad")?"":"Color")]=r,("transparent"!==r||i)&&(o=!0),l.offsetPrepared&&(t.style.visibility="hidden"),e?.bg?.image?.src&&(t.style.backgroundImage=`url(${e?.bg?.image.src})`,t.style.backgroundSize=""==(e.bg.image?.size??"")?"cover":e.bg.image.size,t.style.backgroundPosition=e.bg.image.position,t.style.backgroundRepeat=""==e.bg.image.repeat||null==e.bg.image.repeat?"no-repeat":e.bg.image.repeat,o=!0),!o)return;l.c.bgcanvas=t,e.size.fullWidth?t.style.width=_tpt.winW-(s&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":n&&(t.style.width=l.c.module.offsetWidth+"px"),e.sbt?.use?l.c.content.appendChild(l.c.bgcanvas):l.c.module.appendChild(l.c.bgcanvas)}l.c.bgcanvas.style.height=void 0!==e.newh?e.newh+"px":("carousel"==e.type?l.dims.module.h:l.dims.content.h)+"px",l.c.bgcanvas.style.left=!s&&e.sbt?.use||l.c.bgcanvas.closest("SR7-CONTENT")?"0px":"-"+(l?.dims?.moduleRect?.left??0)+"px"},_tpt.updateSlideBg=function(t,e){const s=SR7.M[t];let n=s.settings;s?.c?.bgcanvas&&(n.size.fullWidth?s.c.bgcanvas.style.width=_tpt.winW-(e&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":preparing&&(s.c.bgcanvas.style.width=s.c.module.offsetWidth+"px"))},_tpt.moduleDefaults=(t,e)=>{let s=SR7.M[t];null!=s&&null!=s.c&&null!=s.c.module&&(s.dims??={},s.dims.moduleRect=s.c.module.getBoundingClientRect(),s.c.content.style.left="-"+s.dims.moduleRect.left+"px",s.c.content.style.width=_tpt.winW-_tpt.scrollBarW+"px","carousel"==e.type&&(s.c.module.style.overflow="visible"),_tpt.bgStyle(t,e,window.innerWidth==_tpt.winW))},_tpt.getOffset=t=>{var e=t.getBoundingClientRect(),s=window.pageXOffset||document.documentElement.scrollLeft,n=window.pageYOffset||document.documentElement.scrollTop;return{top:e.top+n,left:e.left+s}},_tpt.fillArray=function(t,e){let s,n;t=Array.isArray(t)?t:[t];let i=Array(e),l=t.length;for(n=0;n<t.length;n++)i[n+(e-l)]=t[n],null==s&&"#"!==t[n]&&(s=t[n]);for(let t=0;t<e;t++)void 0!==i[t]&&"#"!=i[t]||(i[t]=s),s=i[t];return i},_tpt.closestGE=function(t,e){let s=Number.MAX_VALUE,n=-1;for(let i=0;i<t.length;i++)t[i]-1>=e&&t[i]-1-e<s&&(s=t[i]-1-e,n=i);return++n}}();</script>
 		<style type="text/css" id="wp-custom-css">
-			html,body{ 
+			html,body{
 	overflow-x:hidden;
 	max-width:100%;
 }
@@ -379,6 +379,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	.mobile_menu_content{
 		background-color: #018eff;
 	}
+}
+@media screen and (max-width: 767px) {
+	#ft-about .ft-about-img-exp{
+		max-width: 330px !important;
+		margin: 0 auto !important;
+		padding-top: 18px !important;
+	}
+	#ft-about .ft-about-exp-area{
+		top: 10px !important;
+		right: 8px !important;
+		left: auto !important;
+		bottom: auto !important;
+		width: 168px !important;
+		max-width: 168px !important;
+		transform: none !important;
+	}
+	#ft-about .ft-about-exp-img img{
+		width: 168px !important;
+		height: auto !important;
+	}
+	#ft-about .ft-about-exp-text{
+		top: 40% !important;
+		left: 50% !important;
+		right: auto !important;
+		width: calc(100% - 34px) !important;
+		max-width: 122px !important;
+		transform: translate(-50%, -50%) !important;
+		text-align: center !important;
+	}
+	#ft-about .ft-about-exp-text h3{
+		margin: 0 0 6px !important;
+		font-size: 18px !important;
+		line-height: 1.05 !important;
+		text-align: center !important;
+	}
+	#ft-about .ft-about-exp-text h3 .counter{
+		font-size: 18px !important;
+	}
+	#ft-about .ft-about-exp-text h3 b{
+		font-size: 16px !important;
+	}
+	#ft-about .ft-about-exp-text p{
+		margin: 0 !important;
+		font-size: 9px !important;
+		line-height: 1.3 !important;
+		max-width: none !important;
+		text-align: center !important;
+	}
+	#ft-about .ft-about-img img{
+		width: 100% !important;
+		height: auto !important;
+	}
+}
 			</style>
 		<style id="wpr_lightbox_styles">
 				.lg-backdrop {
@@ -475,13 +528,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="hfe-site-logo">
 													<a data-elementor-open-lightbox=""  class='elementor-clickable' href="/">
-							<div class="hfe-site-logo-set">           
+							<div class="hfe-site-logo-set">
 				<div class="hfe-site-logo-container">
 									<img class="hfe-site-logo-img elementor-animation-"  src="/wp-content/uploads/2024/12/Add-a-heading-4.png" alt="Add a heading (4)"/>
 				</div>
 			</div>
 							</a>
-						</div>  
+						</div>
 							</div>
 				</div>
 				</div>
@@ -554,7 +607,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<li id="menu-item-4039" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="/faqs/" class = "hfe-sub-menu-item">FAQs</a></li>
 </ul>
 </li>
-</ul> 
+</ul>
 				</nav>
 			</div>
 							</div>
@@ -660,7 +713,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				</header>
 
-	
+
 	<!-- Start of Breadcrumb section
 	============================================= -->
 	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="'https://themexriver.com/wp/fastrans/wp-content/themes/fastrans/assets/images/bg/bread-bg.jpg'" style="background-image:url('https://themexriver.com/wp/fastrans/wp-content/themes/fastrans/assets/images/bg/bread-bg.jpg')">
@@ -675,10 +728,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 			</div>
 		</div>
-	</section>	
+	</section>
 	<!-- End of Breadcrumb section
 	============================================= -->
-        
+
 			<div data-elementor-type="wp-page" data-elementor-id="430" class="elementor elementor-430" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-8066198 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-parent" data-id="8066198" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
@@ -780,7 +833,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-b606a99 elementor-widget elementor-widget-fastrans_about_us_v2" data-id="b606a99" data-element_type="widget" data-e-type="widget" data-widget_type="fastrans_about_us_v2.default">
 				<div class="elementor-widget-container">
-					
+
     <!-- Start of About section
 	============================================= -->
 	<section id="ft-about" class="ft-about-section">
@@ -827,7 +880,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<p>Egal welchen Service Sie benötigen – wir sind Ihr vertrauenswürdiger Partner in Wien und Umgebung.</p>
 									</div>
 								</div>
-                                
+
                                 								<div class="ft-btn wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
 									<a class="d-flex justify-content-center align-items-center" href="https://themexriver.com/wp/fastrans/about/" target="_blank" rel="noopener">Explore More</a>
 								</div>
@@ -861,19 +914,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
 
-			
+
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
 							1. Kostenlose Besichtigung						</span>
 					</h3>
-				
+
 									<p class="elementor-icon-box-description">
 						Wir bieten Ihnen eine unverbindliche und kostenfreie Besichtigung für eine präzise Planung Ihrer Entrümpelung.					</p>
-				
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>
@@ -889,19 +942,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
 
-			
+
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
 							2. Erstellung eines unverbindlichen Angebots						</span>
 					</h3>
-				
+
 									<p class="elementor-icon-box-description">
 						Nach der Besichtigung erhalten Sie ein individuelles und transparentes Angebot ohne versteckte Kosten.					</p>
-				
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>
@@ -917,20 +970,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
 
-			
+
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
 							3. Bestätigung des Auftrags						</span>
 					</h3>
-				
+
 									<p class="elementor-icon-box-description">
 						Nach Ihrer Zusage planen wir die Entrümpelung termingerecht und professionell.
 					</p>
-				
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>
@@ -940,20 +993,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
 
-			
+
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
 							4. Trennung und Aussortierung der Gegenstände						</span>
 					</h3>
-				
+
 									<p class="elementor-icon-box-description">
 						Wir sortieren sorgfältig verwertbare und nicht mehr benötigte Gegenstände.
 					</p>
-				
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>
@@ -969,19 +1022,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
 
-			
+
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
 							5. Umweltgerechte Entsorgung						</span>
 					</h3>
-				
+
 									<p class="elementor-icon-box-description">
 						Alle entsorgten Materialien werden umweltgerecht und fachgerecht verarbeitet.					</p>
-				
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>
@@ -997,19 +1050,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="elementor-icon-box-wrapper">
 
-			
+
 						<div class="elementor-icon-box-content">
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
 							6. Übergabe des Objekts in besenreinem Zustand						</span>
 					</h3>
-				
+
 									<p class="elementor-icon-box-description">
 						Nach der Entrümpelung übergeben wir Ihr Objekt sauber und besenrein.					</p>
-				
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>
@@ -1033,17 +1086,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<span  class="elementor-icon">
 				<i aria-hidden="true" class="fas fa-user-graduate"></i>				</span>
 			</div>
-			
+
 						<div class="elementor-icon-box-content">
 
 									<h4 class="elementor-icon-box-title">
 						<span  >
 							Kundenzufriedenheit steht bei uns an erster Stelle						</span>
 					</h4>
-				
-				
+
+
 			</div>
-			
+
 		</div>
 						</div>
 				</div>
@@ -1083,7 +1136,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-7213da3 elementor-widget elementor-widget-fastrans_our_testimonials_v2" data-id="7213da3" data-element_type="widget" data-e-type="widget" data-widget_type="fastrans_our_testimonials_v2.default">
 				<div class="elementor-widget-container">
-							
+
         <!-- Start of Testimonial section
         ============================================= -->
         <section id="ft-testimonial" class="ft-testimonial-section position-relative">
@@ -1178,14 +1231,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                         </div>
-                         
+
                     </div>
                 </div>
             </div>
-        </section>				
+        </section>
     	<!-- End of Testimonial section
         ============================================= -->
-        
+
         				</div>
 				</div>
 					</div>
@@ -1198,7 +1251,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-0752504 elementor-widget elementor-widget-fastrans_funfacts_v3" data-id="0752504" data-element_type="widget" data-e-type="widget" data-widget_type="fastrans_funfacts_v3.default">
 				<div class="elementor-widget-container">
-					
+
     <!-- Start of funfact section
 	============================================= -->
 	<section id="ft-funfact" class="ft-funfact-section">
@@ -1263,7 +1316,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 		</section>
 				</div>
-		
+
 	<div class="clearfix"></div>
 
 			<div data-elementor-type="page" data-elementor-id="1836" class="elementor elementor-1836" data-elementor-post-type="elementor_library">
@@ -1320,13 +1373,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 							<div class="hfe-site-logo">
 													<a data-elementor-open-lightbox=""  class='elementor-clickable' href="/">
-							<div class="hfe-site-logo-set">           
+							<div class="hfe-site-logo-set">
 				<div class="hfe-site-logo-container">
 									<img class="hfe-site-logo-img elementor-animation-"  src="/wp-content/uploads/2022/01/Add-a-heading-5.png" alt="Add a heading (5)"/>
 				</div>
 			</div>
 							</a>
-						</div>  
+						</div>
 							</div>
 				</div>
 				<div class="elementor-element elementor-element-1b23775 elementor-widget elementor-widget-heading" data-id="1b23775" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -1485,7 +1538,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-12d573c4 elementor-widget elementor-widget-text-editor" data-id="12d573c4" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									
+
 <div class="wpcf7 no-js" id="wpcf7-f1838-o1" lang="en-US" dir="ltr" data-wpcf7-id="1838">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
 <form action="/uber-uns/#wpcf7-f1838-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
@@ -1530,7 +1583,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 				</div>
 				</div>
-		
+
 </div>
 <!--End Page Wrapper-->
 
@@ -1657,7 +1710,7 @@ var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_
 <script defer type="text/javascript" src="/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js" id="cmplz-cookiebanner-js"></script>
 <script type="text/javascript" id="cmplz-cookiebanner-js-after">
 /* <![CDATA[ */
-    
+
 		if ('undefined' != typeof window.jQuery) {
 			jQuery(document).ready(function ($) {
 				$(document).on('elementor/popup/show', () => {
@@ -1688,9 +1741,9 @@ var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_
 				});
 			});
 		}
-    
-    
-		
+
+
+
 			document.addEventListener("cmplz_enable_category", function(consentData) {
 				var category = consentData.detail.category;
 				var services = consentData.detail.services;
@@ -1758,8 +1811,8 @@ var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_
 				}
 
 			});
-		
-		
+
+
 //# sourceURL=cmplz-cookiebanner-js-after
 /* ]]> */
 </script>
@@ -1800,7 +1853,7 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '', {
 	cookie_flags:'secure;samesite=none',
-	
+
 });
 </script>
 @endverbatim
