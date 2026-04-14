@@ -70,3 +70,43 @@
 	display: block;
 	animation: fadeIn 0.5s;
 }
+
+@media (max-width: 767px) {
+	body {
+		padding-bottom: calc(78px + env(safe-area-inset-bottom, 0px));
+	}
+
+	.elementor-location-footer,
+	.elementor-location-footer > div,
+	.elementor-location-footer .elementor-section,
+	.elementor-location-footer .elementor-container,
+	.elementor-location-footer .elementor-column,
+	.elementor-location-footer .elementor-widget-wrap,
+	.elementor-location-footer .e-con,
+	.elementor-1836 .elementor-element.elementor-element-345829db,
+	.elementor-1836 .elementor-element.elementor-element-345829db > .elementor-container {
+		overflow: visible !important;
+	}
+
+	.elementor-1836 .elementor-element.elementor-element-8e34bf6 {
+		position: fixed !important;
+		inset: auto 0 0 0 !important;
+		top: auto !important;
+		bottom: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0 !important;
+		transform: none !important;
+		translate: none !important;
+		z-index: 99999 !important;
+	}
+
+	.elementor-1836 .elementor-element.elementor-element-75f4fb1,
+	.elementor-1836 .elementor-element.elementor-element-3113347,
+	.elementor-1836 .elementor-element.elementor-element-0bc67d3,
+	.elementor-1836 .elementor-element.elementor-element-126ad40 {
+		min-height: 0 !important;
+	}
+}

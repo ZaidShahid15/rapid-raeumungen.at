@@ -67,4 +67,41 @@ Last change:    00/00/00
 		
 	}
 
+	function updateDisplayedRatings() {
+		var reviewRegex = /(\b4[.,]9\s+von\s+5[.,]0\s+aus\s+)(\d+)(\s+Bewertungen\b)/i;
+
+		$('body').find('*').contents().filter(function() {
+			return this.nodeType === 3 && (
+				this.nodeValue.indexOf('Bewertungen') !== -1 ||
+				this.nodeValue.indexOf('Ausgezeichnet') !== -1
+			);
+		}).each(function() {
+			if (reviewRegex.test(this.nodeValue)) {
+				this.nodeValue = this.nodeValue.replace(reviewRegex, '$1147$3');
+			}
+
+			if (/^\s*50\s+Bewertungen\s*$/i.test(this.nodeValue)) {
+				this.nodeValue = this.nodeValue.replace(/50/i, '147');
+			}
+		});
+	}
+
+	$(window).on('load', updateDisplayedRatings);
+	$(document).ready(updateDisplayedRatings);
+
+	if (typeof MutationObserver !== 'undefined') {
+		var ratingObserver = new MutationObserver(function() {
+			updateDisplayedRatings();
+		});
+
+		$(window).on('load', function() {
+			if (document.body) {
+				ratingObserver.observe(document.body, {
+					childList: true,
+					subtree: true
+				});
+			}
+		});
+	}
+
 })(window.jQuery);
