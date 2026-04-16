@@ -7,6 +7,11 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 @endsection
 
 @section('head')
+<style>
+    .elementor-4621 .elementor-element.elementor-element-407d584 {
+        margin-top: 50px !important;
+    }
+</style>
 @verbatim
 <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />

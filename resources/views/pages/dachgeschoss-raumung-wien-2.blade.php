@@ -28,6 +28,10 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
     .elementor-element.elementor-element-2306e89 .elementor-widget-container * {
         color: #FFFFFF !important;
     }
+
+    .elementor-4640 .elementor-element.elementor-element-407d584 {
+        margin-top: 50px !important;
+    }
 </style>
 @verbatim
 <meta charset="UTF-8" />
