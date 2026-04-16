@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Schnelle und günstige Garagenentrümpelung – Ihr zuverlässiger Service</title>
 <meta name="description" content="Garagenentrümpelung in Wien: Wir räumen Ihre Garage schnell und zuverlässig. Entsorgung von Sperrmüll und Altmaterialien zu fairen Preisen. Jetzt anfragen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/garagenentrumpelung/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

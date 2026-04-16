@@ -38,7 +38,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Professionelle Hausräumung Wien: Fairpreise und schnelle Durchführung</title>
 <meta name="description" content="Erfahren Sie, wie professionelle Hausräumungen Wien schnell und zu fairen Preisen durchgeführt werden. Lesen Sie unseren Artikel für hilfreiche Tipps!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/hausraumung-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

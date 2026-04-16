@@ -42,7 +42,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Entrümpelung Wien 1170 – Schnelle und professionelle Hilfe in Hernals</title>
 <meta name="description" content="Schnelle und professionelle Entrümpelung Wien 1170. Erfahren Sie, wie Sie Platz schaffen und Stress vermeiden können. Jetzt den Artikel lesen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/entrumpelung-wien-1170/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

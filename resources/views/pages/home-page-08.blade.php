@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Home Page 08 - Raeumungen</title>
 <meta name="description" content="Welcome Transportation Company"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/home-page-08/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

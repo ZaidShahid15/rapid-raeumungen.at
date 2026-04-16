@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Effiziente Entrümpelung Wien 1020 – Ihr Partner für schnelle Lösungen!</title>
 <meta name="description" content="Entrümpelung Wien 1020: Machen Sie Platz! Wir bieten schnelle Entrümpelungen für Wohnungen, Häuser und Büros. Stressfrei, professionell und zu fairen Preisen."/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/entrumpelung-wien-1180/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

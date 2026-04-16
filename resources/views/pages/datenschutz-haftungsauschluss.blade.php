@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Datenschutz + Haftungsauschluss - Raeumungen</title>
 <meta name="description" content="Firmenname: VIPROTECT GmbHAdresse: Heiligenstädter Str. 32/303, A-1190 WienTelefon: +43 676 5055457E-Mail: office@viprotect.atFirmenbuchnummer: FN 590214"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/datenschutz-haftungsauschluss/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

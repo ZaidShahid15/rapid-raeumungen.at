@@ -38,7 +38,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Professionelle Nachlass Entrümpelung Wien – Schnell und Zuverlässig</title>
 <meta name="description" content="Nachlass Entrümpelung Wien: Professionelle und zuverlässige Unterstützung bei der Entrümpelung von Nachlässen. Holen Sie sich wertvolle Tipps und Infos!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/nachlass-entrumpelung-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

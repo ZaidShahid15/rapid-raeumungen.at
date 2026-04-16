@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Our Services - Raeumungen</title>
 <meta name="description" content="Zolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo vel facilisis."/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/our-services/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

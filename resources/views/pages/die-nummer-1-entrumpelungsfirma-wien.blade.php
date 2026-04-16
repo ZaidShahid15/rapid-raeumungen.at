@@ -42,7 +42,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Die Nummer 1 Entrümpelungsfirma Wien: Schnell, Zuverlässig &amp; Preiswert</title>
 <meta name="description" content="Suchen Sie eine schnelle und zuverlässige Entrümpelungsfirma in Wien? Entdecken Sie preiswerte Lösungen für Ihre Entrümpelung. Jetzt Artikel lesen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/die-nummer-1-entrumpelungsfirma-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

@@ -42,7 +42,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Top Entrümpelungsdienst Wien für schnelle und stressfreie Räumungen</title>
 <meta name="description" content="Finden Sie den besten Entrümpelungsdienst in Wien für schnelle und stressfreie Räumungen. Erfahren Sie, wie Sie Platz schaffen können! Jetzt lesen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/effiziente-entrumpelung-wien-1020/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

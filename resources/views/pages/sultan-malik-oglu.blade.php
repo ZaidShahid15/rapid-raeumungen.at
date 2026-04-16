@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Sultan Malik Oglu - Raeumungen</title>
 <meta name="description" content="Donec viverra at diam at facilisis. Maecenas ipsum turpis, posuere sit amet arcu sed, efficitur porttitor felis. Phasellus blandit, arcu quis rutrum semper,"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/sultan-malik-oglu/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

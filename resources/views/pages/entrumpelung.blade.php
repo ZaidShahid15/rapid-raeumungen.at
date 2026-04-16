@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Entrümpelung Wien – Professioneller Service für stressfreie Räumungen</title>
 <meta name="description" content="Entrümpelung in Wien: Vertrauen Sie auf unseren professionellen Service für schnelle, zuverlässige und stressfreie Räumungen. Kontaktieren Sie uns jetzt!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/entrumpelung/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

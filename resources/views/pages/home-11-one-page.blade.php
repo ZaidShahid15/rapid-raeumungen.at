@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Home 11 ( One Page ) - Raeumungen</title>
 <meta name="description" content="Welcome to Fastans"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/home-11-one-page/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

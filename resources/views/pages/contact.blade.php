@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Contact - Raeumungen</title>
 <meta name="description" content="Digital Agency Network 20 Eastbourne Terrace London W2 6LG"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/contact/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

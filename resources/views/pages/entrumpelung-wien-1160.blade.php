@@ -42,7 +42,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Effiziente Entrümpelung Wien 1160 - Tipps für einen schnellen Ablauf</title>
 <meta name="description" content="Erfahren Sie, wie Sie Ihre Entrümpelung Wien 1160 schnell und effizient gestalten können. Holen Sie sich wertvolle Tipps für einen reibungslosen Ablauf!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/entrumpelung-wien-1160/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

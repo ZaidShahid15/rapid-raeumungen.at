@@ -103,7 +103,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Seniorenheim Entrümpelung: Tipps für einen stressfreien Umzug</title>
 <meta name="description" content="Seniorenheim Entrümpelung: Sorgfältige &amp; respektvolle Räumung für Seniorenheime. Professionell, schnell &amp; stressfrei. Wir kümmern uns um alles – jetzt anfragen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/seniorenheim-entrumpelung/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

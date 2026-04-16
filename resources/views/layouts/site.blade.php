@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html @yield('html_attributes')>
     <head>
-        <meta name="robots" content="noindex, follow">
+    <meta name="robots" content="index, follow">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         @yield('head')
     </head>

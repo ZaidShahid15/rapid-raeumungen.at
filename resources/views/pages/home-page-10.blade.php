@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Home Page 10 - Raeumungen</title>
 <meta name="description" content="We are very proud of our workforce and have worked hard to create a business that attracts those people."/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/home-page-10/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

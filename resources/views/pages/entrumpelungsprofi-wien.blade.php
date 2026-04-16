@@ -38,7 +38,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Der Entrümpelungsprofi Wien – Schnell, zuverlässig und zum Festpreis</title>
 <meta name="description" content="Der Entrümpelungsprofi Wien: Schnelle, professionelle Entrümpelung von Wohnungen, Häusern und Büros. Zuverlässig, fair und stressfrei. Jetzt kostenlos anfragen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/entrumpelungsprofi-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

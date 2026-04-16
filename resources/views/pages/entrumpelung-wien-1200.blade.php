@@ -38,7 +38,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Schnelle und zuverlässige Entrümpelung Wien 1200 – Ihr Partner vor Ort</title>
 <meta name="description" content="Entrümpelung Wien 1200: Wir bieten schnelle und effiziente Entrümpelungen in Wien 1200. Faire Preise und stressfreie Abwicklung. Jetzt kostenlos anfragen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/entrumpelung-wien-1200/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />

@@ -16,7 +16,7 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
 <title>Stressfreie Büroentrümpelung Wien – Professionelle Hilfe für Ihr Büro</title>
 <meta name="description" content="Stressfreie Büroentrümpelung Wien: Wir räumen Ihr Büro schnell &amp; effizient. Keine Sorgen, faire Preise &amp; ein stressfreier Service. Jetzt unverbindlich anfragen!"/>
-<meta name="robots" content="noindex, follow"/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="/buroentrumpelung-wien/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
