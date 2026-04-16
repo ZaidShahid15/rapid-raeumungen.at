@@ -875,7 +875,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             							<div class="ft-about-feature-list-warpper">
 								                                <div class="ft-about-feature-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 									<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
-										<i class=""></i>
+										<i class="fas fa-broom" aria-hidden="true"></i>
 									</div>
 									<div class="ft-about-feature-text headline pera-content">
 										<h3>Besenreine Räumung für alle Objekte</h3>
@@ -884,7 +884,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</div>
                                                                 <div class="ft-about-feature-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 									<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
-										<i class=""></i>
+										<i class="fas fa-search" aria-hidden="true"></i>
 									</div>
 									<div class="ft-about-feature-text headline pera-content">
 										<h3>Kostenlose Besichtigung vor Ort</h3>
@@ -893,7 +893,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</div>
                                                                 <div class="ft-about-feature-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 									<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
-										<i class=""></i>
+										<i class="fas fa-shield-alt" aria-hidden="true"></i>
 									</div>
 									<div class="ft-about-feature-text headline pera-content">
 										<h3>Festpreisgarantie</h3>
@@ -1714,7 +1714,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						
     <!-- Start of why choose section
 	============================================= -->
-	<section id="ft-why-choose" class="ft-why-choose-section position-relative" data-background="/wp-content/uploads/2022/12/10-1.jpg">
+	<section id="ft-why-choose" class="ft-why-choose-section position-relative" data-background="/wp-content/uploads/2024/12/gratisraumungwien.jpg" style="background-image: url('/wp-content/uploads/2024/12/gratisraumungwien.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
 		<div class="container">
 			<div class="ft-why-choose-content">
 				<div class="row justify-content-end">
@@ -1773,7 +1773,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						
     <!-- Start of why choose section
 	============================================= -->
-	<section id="ft-why-choose" class="ft-why-choose-section position-relative" data-background="/wp-content/uploads/2025/09/2-7-1.webp">
+	<section id="ft-why-choose" class="ft-why-choose-section position-relative" data-background="/wp-content/uploads/2024/12/gratisentrumpelung.jpg" style="background-image: url('/wp-content/uploads/2024/12/gratisentrumpelung.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
 		<div class="container">
 			<div class="ft-why-choose-content">
 				<div class="row justify-content-end">
@@ -1784,7 +1784,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             							<div class="ft-why-choose-feature-wrapper">
 								                                <div class="ft-why-choose-feature-item d-flex align-items-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
 									<div class="ft-why-choose-feature-icon d-flex align-items-center justify-content-center position-relative">
-										<i class=""></i>
+										<i class="fa fa-recycle"></i>
 									</div>
 									<div class="ft-why-choose-feature-text headline pera-content">
 										<h3>Nachhaltige Entsorgung </h3>
@@ -1793,7 +1793,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</div>
                                                                 <div class="ft-why-choose-feature-item d-flex align-items-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
 									<div class="ft-why-choose-feature-icon d-flex align-items-center justify-content-center position-relative">
-										<i class=""></i>
+										<i class="fa fa-tools"></i>
 									</div>
 									<div class="ft-why-choose-feature-text headline pera-content">
 										<h3>Umfangreiche Erfahrung für alle Arten von Räumungen</h3>
@@ -1802,7 +1802,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</div>
                                                                 <div class="ft-why-choose-feature-item d-flex align-items-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
 									<div class="ft-why-choose-feature-icon d-flex align-items-center justify-content-center position-relative">
-										<i class=""></i>
+										<i class="fa fa-handshake"></i>
 									</div>
 									<div class="ft-why-choose-feature-text headline pera-content">
 										<h3>Ein Ansprechpartner für alles</h3>
