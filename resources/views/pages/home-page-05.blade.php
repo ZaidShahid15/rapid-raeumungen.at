@@ -810,7 +810,7 @@ to Reach Potential</h2>							<p>Our continued investment in a modern fleet, war
 
 					</div>
 					<div class="col-lg-5 reveal">
-						<div class="fan-item-wrap  image-wrap d-flex align-items-end flex-column" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/fnf-banner.jpg)">
+						<div class="fan-item-wrap  image-wrap d-flex align-items-end flex-column" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/fnf-banner.jpg)">
 														<div class="fnf-item elementor-repeater-item-f1cccc7">
 								<h1><span class="odometer" data-count="18">00</span><span></span></h1>
 								<h4>Brunches</h4>
@@ -852,7 +852,7 @@ transports</p>
                                                     <div class="ft-project-v5-slider-item">
                         <div class="ft-project-v5-slider-innerbox position-relative">
                             <div class="ft-project-v5-img">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-1.jpg" alt="">
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-1.jpg" alt="">
                             </div>
                             <div class="ft-v5-portfolio-text headline headline pera-content">
                                 <span>Transport</span>
@@ -863,7 +863,7 @@ transports</p>
                                                         <div class="ft-project-v5-slider-item">
                         <div class="ft-project-v5-slider-innerbox position-relative">
                             <div class="ft-project-v5-img">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-2.jpg" alt="">
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-2.jpg" alt="">
                             </div>
                             <div class="ft-v5-portfolio-text headline headline pera-content">
                                 <span>Transport</span>
@@ -874,7 +874,7 @@ transports</p>
                                                         <div class="ft-project-v5-slider-item">
                         <div class="ft-project-v5-slider-innerbox position-relative">
                             <div class="ft-project-v5-img">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-1.jpg" alt="">
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-1.jpg" alt="">
                             </div>
                             <div class="ft-v5-portfolio-text headline headline pera-content">
                                 <span>Transport</span>
@@ -885,7 +885,7 @@ transports</p>
                                                         <div class="ft-project-v5-slider-item">
                         <div class="ft-project-v5-slider-innerbox position-relative">
                             <div class="ft-project-v5-img">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-2.jpg" alt="">
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/project-new-2.jpg" alt="">
                             </div>
                             <div class="ft-v5-portfolio-text headline headline pera-content">
                                 <span>Transport</span>
@@ -964,7 +964,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="250" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#a)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-1.jpg" height="350" width="250" />
+							<image filter="url(#a)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-1.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -983,7 +983,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="20" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#b)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-2.jpg" height="350" width="250" />
+							<image filter="url(#b)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-2.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -1002,7 +1002,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#c)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-3.jpg" height="350" width="250" />
+							<image filter="url(#c)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-3.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -1021,7 +1021,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#d)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-4.jpg" height="350" width="250" />
+							<image filter="url(#d)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-4.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -1040,7 +1040,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#e)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-1.jpg" height="350" width="250" />
+							<image filter="url(#e)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-1.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -1059,7 +1059,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#f)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-2.jpg" height="350" width="250" />
+							<image filter="url(#f)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-2.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -1078,7 +1078,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#g)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-3.jpg" height="350" width="250" />
+							<image filter="url(#g)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-3.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -1097,7 +1097,7 @@ improve the customer experience.s</p>
 								<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp" />
 									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" />
 							</filter>
-							<image filter="url(#h)" class="distort__img" x="50" y="50" xlink:href="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-4.jpg" height="350" width="250" />
+							<image filter="url(#h)" class="distort__img" x="50" y="50" xlink:href="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/team-4.jpg" height="350" width="250" />
 						</svg>
 						<figcaption class="thumb__caption">
 							<p class="thumb__caption-title">In publishing and graphic design, Lorem ipsum is a placeholder text commonly</p> <a href="#" class="thumb__caption-link">View Details</a>
@@ -1162,14 +1162,14 @@ Services</h2>
                     <div class="col-lg-5 col-md-5">
                         <div class="fs-awesome-slide-wrap position-relative">							
 							<div class="shape-img">
-								<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/s-shape-img.png" alt="">
+								<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/s-shape-img.png" alt="">
 							</div>
 							<div class="fs-awesome-slide reveal">
 																<div class="fs-awesome-slide-item image-wrap">
-									<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/as-item.jpg" alt="">
+									<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/as-item.jpg" alt="">
 								</div>
 																<div class="fs-awesome-slide-item image-wrap">
-									<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/as-item.jpg" alt="">
+									<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/as-item.jpg" alt="">
 								</div>
 															
 							</div>
@@ -1196,7 +1196,7 @@ Services</h2>
 							
         <!-- Start of Testimonial section
         ============================================= -->
-        <section id="ft-testimonial-4" class="ft-testimonial-section-4" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/tes-bg.jpg);">
+        <section id="ft-testimonial-4" class="ft-testimonial-section-4" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/tes-bg.jpg);">
             <div class="container">
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1">
@@ -1205,21 +1205,21 @@ Services</h2>
 																<div class="ft-testimonial-item-4 text-center">
 									<p>“Fastrans is a UK-based, market-leading intermodal
 logistics company offering the complete solution for your supply chain requirements including container transport and storage, freight management.”</p>
-									<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/thumb-item.png" alt="">
+									<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/thumb-item.png" alt="">
 									<h4>Robert Brown</h4>
 									<span>Project Manager</span>
 								</div>
 																<div class="ft-testimonial-item-4 text-center">
 									<p>“Fastrans is a UK-based, market-leading intermodal
 logistics company offering the complete solution for your supply chain requirements including container transport and storage, freight management.”</p>
-									<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/thumb-item.png" alt="">
+									<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/thumb-item.png" alt="">
 									<h4>Robert Brown</h4>
 									<span>Project Manager</span>
 								</div>
 																<div class="ft-testimonial-item-4 text-center">
 									<p>“Fastrans is a UK-based, market-leading intermodal
 logistics company offering the complete solution for your supply chain requirements including container transport and storage, freight management.”</p>
-									<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/thumb-item.png" alt="">
+									<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/thumb-item.png" alt="">
 									<h4>Robert Brown</h4>
 									<span>Project Manager</span>
 								</div>
@@ -1274,7 +1274,7 @@ logistics company offering the complete solution for your supply chain requireme
 						<div class="col-lg-4">
 							<div class="get-quote-item-4">
 								<div class="quote4-img">
-									<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/main-img.jpg" alt="">
+									<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/11/main-img.jpg" alt="">
 								</div>
 								<div class="quote4-content">
 									<h4>Get a quote</h4>

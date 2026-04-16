@@ -1,247 +1,264 @@
 <?php
 
+use App\Http\Controllers\BlogPostController;
 use App\Http\Controllers\FormSubmissionController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+
+Route::get('/{path}', function (Request $request, string $path) {
+    $normalizedPath = trim($path, '/');
+    $lowercasePath = strtolower($normalizedPath);
+
+    if ($normalizedPath === $lowercasePath) {
+        abort(404);
+    }
+
+    $queryString = $request->getQueryString();
+    $target = '/' . $lowercasePath . ($queryString ? '?' . $queryString : '');
+
+    return redirect($target, 301);
+})->where('path', '.*[A-Z].*');
 
 Route::post('/{path?}', [FormSubmissionController::class, 'submit'])->where('path', '.*');
 
-$pageRoutes = [
-    '/' => 'pages.index',
-    '/ankauf-verlassenschaften-wien' => 'pages.ankauf-verlassenschaften-wien',
-    '/besenreine-entrumpelung' => 'pages.besenreine-entrumpelung',
-    '/betriebsauflosung-wien' => 'pages.betriebsauflosung-wien',
-    '/blog' => 'pages.blog',
-    '/buroentrumpelung-wien' => 'pages.buroentrumpelung-wien',
-    '/checklists' => 'pages.checklists',
-    '/contact' => 'pages.contact',
-    '/dachboden-entrumpelung' => 'pages.dachboden-entrumpelung',
-    '/dachgeschoss-raumung-wien' => 'pages.dachgeschoss-raumung-wien',
-    '/dachgeschoss-raumung-wien-2' => 'pages.dachgeschoss-raumung-wien-2',
-    '/datenschutz-haftungsauschluss' => 'pages.datenschutz-haftungsauschluss',
-    '/die-nummer-1-entrumpelungsfirma-wien' => 'pages.die-nummer-1-entrumpelungsfirma-wien',
-    '/douglas-martin' => 'pages.douglas-martin',
-    '/effektive-lagerraumung-wien' => 'pages.effektive-lagerraumung-wien',
-    '/effiziente-entrumpelung-wien-1020' => 'pages.effiziente-entrumpelung-wien-1020',
-    '/elementor-hf/home-page-02' => 'pages.elementor-hf.home-page-02',
-    '/elementor-hf/home-v7-footer' => 'pages.elementor-hf.home-v7-footer',
-    '/elementor-hf/home-v7-footer-2' => 'pages.elementor-hf.home-v7-footer-2',
-    '/enquiry-form' => 'pages.enquiry-form',
-    '/entrumpelung' => 'pages.entrumpelung',
-    '/entrumpelungen-wien' => 'pages.entrumpelungen-wien',
-    '/entrumpelung-in-wien-1080' => 'pages.entrumpelung-in-wien-1080',
-    '/entrumpelungsdienst-wien' => 'pages.entrumpelungsdienst-wien',
-    '/entrumpelungsfirma-wien' => 'pages.entrumpelungsfirma-wien',
-    '/entrumpelungsprofi-wien' => 'pages.entrumpelungsprofi-wien',
-    '/entrumpelungsservice-wien' => 'pages.entrumpelungsservice-wien',
-    '/entrumpelungsunternehmen-wien' => 'pages.entrumpelungsunternehmen-wien',
-    '/entrumpelung-wien-1010' => 'pages.entrumpelung-wien-1010',
-    '/entrumpelung-wien-1020' => 'pages.entrumpelung-wien-1020',
-    '/entrumpelung-wien-1030' => 'pages.entrumpelung-wien-1030',
-    '/entrumpelung-wien-1040' => 'pages.entrumpelung-wien-1040',
-    '/entrumpelung-wien-1050' => 'pages.entrumpelung-wien-1050',
-    '/entrumpelung-wien-1060' => 'pages.entrumpelung-wien-1060',
-    '/entrumpelung-wien-1070' => 'pages.entrumpelung-wien-1070',
-    '/entrumpelung-wien-1090' => 'pages.entrumpelung-wien-1090',
-    '/entrumpelung-wien-1100' => 'pages.entrumpelung-wien-1100',
-    '/entrumpelung-wien-1110' => 'pages.entrumpelung-wien-1110',
-    '/entrumpelung-wien-1120' => 'pages.entrumpelung-wien-1120',
-    '/entrumpelung-wien-1150' => 'pages.entrumpelung-wien-1150',
-    '/entrumpelung-wien-1160' => 'pages.entrumpelung-wien-1160',
-    '/entrumpelung-wien-1170' => 'pages.entrumpelung-wien-1170',
-    '/entrumpelung-wien-1180' => 'pages.entrumpelung-wien-1180',
-    '/entrumpelung-wien-1190' => 'pages.entrumpelung-wien-1190',
-    '/entrumpelung-wien-1200' => 'pages.entrumpelung-wien-1200',
-    '/entrumpler-wien' => 'pages.entrumpler-wien',
-    '/ethan-portman' => 'pages.ethan-portman',
-    '/faqs' => 'pages.faqs',
-    '/faqs/10-wie-schnell-kann-eine-entrumpelung-in-wien-durchgefuhrt-werden' => 'pages.faqs.10-wie-schnell-kann-eine-entrumpelung-in-wien-durchgefuhrt-werden',
-    '/faqs/1-was-umfasst-eine-entrumpelung-in-wien' => 'pages.faqs.1-was-umfasst-eine-entrumpelung-in-wien',
-    '/faqs/2-wie-lauft-eine-wohnungsraumung-in-wien-ab' => 'pages.faqs.2-wie-lauft-eine-wohnungsraumung-in-wien-ab',
-    '/faqs/3-was-kostet-eine-entrumpelung-in-wien' => 'pages.faqs.3-was-kostet-eine-entrumpelung-in-wien',
-    '/faqs/4-bietet-ihre-raumungsfirma-in-wien-einen-entrumpelungsservice-fur-keller' => 'pages.faqs.4-bietet-ihre-raumungsfirma-in-wien-einen-entrumpelungsservice-fur-keller',
-    '/faqs/5-was-unterscheidet-rapid-raumungen-von-anderen-entrumpelungsfirmen-in-wien' => 'pages.faqs.5-was-unterscheidet-rapid-raumungen-von-anderen-entrumpelungsfirmen-in-wien',
-    '/faqs/6-ubernehmen-sie-auch-messie-entrumpelungen' => 'pages.faqs.6-ubernehmen-sie-auch-messie-entrumpelungen',
-    '/faqs/7-kann-ich-ihre-raumungsfirma-fur-verlassenschaften-in-niederosterreich-beauftragen' => 'pages.faqs.7-kann-ich-ihre-raumungsfirma-fur-verlassenschaften-in-niederosterreich-beauftragen',
-    '/faqs/8-was-bedeutet-gratis-entrumpelung' => 'pages.faqs.8-was-bedeutet-gratis-entrumpelung',
-    '/faqs/9-welche-leistungen-bietet-ihre-raumungsfirma-fur-dachboden-an' => 'pages.faqs.9-welche-leistungen-bietet-ihre-raumungsfirma-fur-dachboden-an',
-    '/faqs/bieten-wir-auch-reinigungen-an' => 'pages.faqs.bieten-wir-auch-reinigungen-an',
-    '/faqs/bietet-rapid-raumungen-eine-kostenlose-besichtigung-an' => 'pages.faqs.bietet-rapid-raumungen-eine-kostenlose-besichtigung-an',
-    '/faqs/bietet-rapid-raumungen-entrumpelungen-in-wien-und-niederosterreich-an' => 'pages.faqs.bietet-rapid-raumungen-entrumpelungen-in-wien-und-niederosterreich-an',
-    '/faqs/fuhren-wir-auch-umzuge-durch' => 'pages.faqs.fuhren-wir-auch-umzuge-durch',
-    '/faqs/kann-ich-bei-einer-raumung-in-wien-mit-wertanrechnung-rechnen' => 'pages.faqs.kann-ich-bei-einer-raumung-in-wien-mit-wertanrechnung-rechnen',
-    '/faqs/kostet-die-besichtigung-etwas' => 'pages.faqs.kostet-die-besichtigung-etwas',
-    '/faqs/muss-ich-bei-der-wohnungsraumung-hausraumung-anwesend-sein' => 'pages.faqs.muss-ich-bei-der-wohnungsraumung-hausraumung-anwesend-sein',
-    '/faqs/ubernimmt-rapid-raumungen-auch-die-entsorgung-der-gegenstande' => 'pages.faqs.ubernimmt-rapid-raumungen-auch-die-entsorgung-der-gegenstande',
-    '/faqs/warum-sollte-ich-mich-fur-rapid-raumungen-entscheiden' => 'pages.faqs.warum-sollte-ich-mich-fur-rapid-raumungen-entscheiden',
-    '/faqs/was-gehort-zu-unserem-service' => 'pages.faqs.was-gehort-zu-unserem-service',
-    '/faqs/was-kostet-eine-entrumpelung-bei-uns' => 'pages.faqs.was-kostet-eine-entrumpelung-bei-uns',
-    '/faqs/was-kostet-eine-entrumpelung-wien' => 'pages.faqs.was-kostet-eine-entrumpelung-wien',
-    '/faqs/was-passiert-wenn-ein-schaden-entsteht' => 'pages.faqs.was-passiert-wenn-ein-schaden-entsteht',
-    '/faqs/was-umfasst-eine-entrumpelung-wien-durch-rapid-raumungen' => 'pages.faqs.was-umfasst-eine-entrumpelung-wien-durch-rapid-raumungen',
-    '/faqs/welche-arten-von-entrumpelungen-fuhren-wir-durch' => 'pages.faqs.welche-arten-von-entrumpelungen-fuhren-wir-durch',
-    '/faqs/welche-vorteile-bietet-eine-wohnungsraumung-in-wien-mit-rapid-raumungen' => 'pages.faqs.welche-vorteile-bietet-eine-wohnungsraumung-in-wien-mit-rapid-raumungen',
-    '/faqs/wie-lange-dauert-eine-raumung' => 'pages.faqs.wie-lange-dauert-eine-raumung',
-    '/faqs/wie-lange-dauert-es-im-schnitt-bis-ich-einen-termin-zur-besichtigung-habe' => 'pages.faqs.wie-lange-dauert-es-im-schnitt-bis-ich-einen-termin-zur-besichtigung-habe',
-    '/faqs/wie-lange-sind-wir-als-entrumpelungsfirma-tatig' => 'pages.faqs.wie-lange-sind-wir-als-entrumpelungsfirma-tatig',
-    '/faqs/wie-lauft-eine-messie-entrumpelung-bei-rapid-raumungen-ab' => 'pages.faqs.wie-lauft-eine-messie-entrumpelung-bei-rapid-raumungen-ab',
-    '/faqs/wie-schnell-kann-ein-termin-fur-eine-entrumpelung-vereinbart-werden' => 'pages.faqs.wie-schnell-kann-ein-termin-fur-eine-entrumpelung-vereinbart-werden',
-    '/faqs/wieso-genau-wir' => 'pages.faqs.wieso-genau-wir',
-    '/faqs/wo-in-osterreich-sind-wir-tatig' => 'pages.faqs.wo-in-osterreich-sind-wir-tatig',
-    '/firmenraumung-wien' => 'pages.firmenraumung-wien',
-    '/fred-gray' => 'pages.fred-gray',
-    '/garagenentrumpelung' => 'pages.garagenentrumpelung',
-    '/gartenentrumpelung' => 'pages.gartenentrumpelung',
-    '/gemeindewohnung-entrumpelung-wien' => 'pages.gemeindewohnung-entrumpelung-wien',
-    '/genossenschaft-wohnung-entrumpelung-wien' => 'pages.genossenschaft-wohnung-entrumpelung-wien',
-    '/geschaftsauflosung-wien' => 'pages.geschaftsauflosung-wien',
-    '/gratis-entrumpelung-wien' => 'pages.gratis-entrumpelung-wien',
-    '/haushaltsauflosung-wien' => 'pages.haushaltsauflosung-wien',
-    '/hausraumung-wien' => 'pages.hausraumung-wien',
-    '/home-09-onepage' => 'pages.home-09-onepage',
-    '/home-10-one-page' => 'pages.home-10-one-page',
-    '/home-11' => 'pages.home-11',
-    '/home-11-one-page' => 'pages.home-11-one-page',
-    '/home-1one-page' => 'pages.home-1one-page',
-    '/home-2-one-page' => 'pages.home-2-one-page',
-    '/home-3-one-page' => 'pages.home-3-one-page',
-    '/home-4-one-page' => 'pages.home-4-one-page',
-    '/home-6-one-page' => 'pages.home-6-one-page',
-    '/home-7-one-page' => 'pages.home-7-one-page',
-    '/home-8-one-page' => 'pages.home-8-one-page',
-    '/home-page-01' => 'pages.home-page-01',
-    '/home-page-03' => 'pages.home-page-03',
-    '/home-page-04' => 'pages.home-page-04',
-    '/home-page-05' => 'pages.home-page-05',
-    '/home-page-06' => 'pages.home-page-06',
-    '/home-page-07' => 'pages.home-page-07',
-    '/home-page-08' => 'pages.home-page-08',
-    '/home-page-09' => 'pages.home-page-09',
-    '/home-page-10' => 'pages.home-page-10',
-    '/impressum' => 'pages.impressum',
-    '/index' => 'pages.index',
-    '/jennifer-rivera' => 'pages.jennifer-rivera',
-    '/john-doe' => 'pages.john-doe',
-    '/johnny-watson' => 'pages.johnny-watson',
-    '/keith-smith' => 'pages.keith-smith',
-    '/kontakt' => 'pages.kontakt',
-    '/lagerentrumpelung-wien' => 'pages.lagerentrumpelung-wien',
-    '/lagerraumung-wien' => 'pages.lagerraumung-wien',
-    '/messie-entrumpelung' => 'pages.messie-entrumpelung',
-    '/messie-wohnung-entrumpelung' => 'pages.messie-wohnung-entrumpelung',
-    '/nachlassauflosung-wien' => 'pages.nachlassauflosung-wien',
-    '/nachlass-entrumpelung-wien' => 'pages.nachlass-entrumpelung-wien',
-    '/new-home-page' => 'pages.new-home-page',
-    '/our-faqs' => 'pages.our-faqs',
-    '/our-services' => 'pages.our-services',
-    '/professionelle-dachgeschoss-raumung-wien' => 'pages.professionelle-dachgeschoss-raumung-wien',
-    '/project/air-freight-forwarding' => 'pages.project.air-freight-forwarding',
-    '/project/air-frieght-overview' => 'pages.project.air-frieght-overview',
-    '/project/a-national-wholesale-distributor' => 'pages.project.a-national-wholesale-distributor',
-    '/project/cartonization-technology-in-parcel-freight' => 'pages.project.cartonization-technology-in-parcel-freight',
-    '/project/cash-counters-to-paddington-station' => 'pages.project.cash-counters-to-paddington-station',
-    '/project/collaborative-supply-chains' => 'pages.project.collaborative-supply-chains',
-    '/project/ct-scanner-from-italy-to-the-uk' => 'pages.project.ct-scanner-from-italy-to-the-uk',
-    '/project/customized-fleet-technology-solutions' => 'pages.project.customized-fleet-technology-solutions',
-    '/project/ground-shipping' => 'pages.project.ground-shipping',
-    '/project/industrial-and-air-shipping-2' => 'pages.project.industrial-and-air-shipping-2',
-    '/project/international-air-freight' => 'pages.project.international-air-freight',
-    '/project/lane-pairing-analysis' => 'pages.project.lane-pairing-analysis',
-    '/project/large-projects-in-air' => 'pages.project.large-projects-in-air',
-    '/project/managing-the-inbound-auto-supply-chain' => 'pages.project.managing-the-inbound-auto-supply-chain',
-    '/project/ocean-cargo-roundtable' => 'pages.project.ocean-cargo-roundtable',
-    '/project/ocean-freight-and-shipping' => 'pages.project.ocean-freight-and-shipping',
-    '/project/optimizing-activities-in-distribution' => 'pages.project.optimizing-activities-in-distribution',
-    '/project/service-aftermarket-logistics' => 'pages.project.service-aftermarket-logistics',
-    '/project/specialist-transport-services' => 'pages.project.specialist-transport-services',
-    '/project/uk-exhibition-support-for-teneso-italy' => 'pages.project.uk-exhibition-support-for-teneso-italy',
-    '/project/usage-of-electric-vehicles-in-work-of-our-company' => 'pages.project.usage-of-electric-vehicles-in-work-of-our-company',
-    '/raumungsdienst-wien' => 'pages.raumungsdienst-wien',
-    '/raumungsfirma-wien' => 'pages.raumungsfirma-wien',
-    '/raumungsunternehmen-wien' => 'pages.raumungsunternehmen-wien',
-    '/raumung-wien' => 'pages.raumung-wien',
-    '/raumung-wien-1070' => 'pages.raumung-wien-1070',
-    '/raumung-wien-1100' => 'pages.raumung-wien-1100',
-    '/raumung-wien-1130' => 'pages.raumung-wien-1130',
-    '/raumung-wien-1140' => 'pages.raumung-wien-1140',
-    '/scott-anderson' => 'pages.scott-anderson',
-    '/seniorenheim-entrumpelung' => 'pages.seniorenheim-entrumpelung',
-    '/service/air-freight' => 'pages.service.air-freight',
-    '/service/air-freight-service' => 'pages.service.air-freight-service',
-    '/service/buroraumungen-fur-firmen-in-wien-und-umgebung' => 'pages.service.buroraumungen-fur-firmen-in-wien-und-umgebung',
-    '/service/cars-freight' => 'pages.service.cars-freight',
-    '/service/contract-logistic' => 'pages.service.contract-logistic',
-    '/service/corporate-air-frieght' => 'pages.service.corporate-air-frieght',
-    '/service/custom-brokerage' => 'pages.service.custom-brokerage',
-    '/service/customer-support' => 'pages.service.customer-support',
-    '/service/custom-solutions' => 'pages.service.custom-solutions',
-    '/service/entrumpelung-wien-platz-schaffen-leicht-gemacht' => 'pages.service.entrumpelung-wien-platz-schaffen-leicht-gemacht',
-    '/service/industry-solutions' => 'pages.service.industry-solutions',
-    '/service/keller-und-dachbodenraumungen' => 'pages.service.keller-und-dachbodenraumungen',
-    '/service/ocean-freight' => 'pages.service.ocean-freight',
-    '/service/rail-freight' => 'pages.service.rail-freight',
-    '/service/raumung-wien-schnell-und-effizient' => 'pages.service.raumung-wien-schnell-und-effizient',
-    '/service/real-time-tracking' => 'pages.service.real-time-tracking',
-    '/service/reliability-punctuality' => 'pages.service.reliability-punctuality',
-    '/service/road-freight' => 'pages.service.road-freight',
-    '/service/road-transportation' => 'pages.service.road-transportation',
-    '/service/safe-secure-deliver' => 'pages.service.safe-secure-deliver',
-    '/service/sea-freight' => 'pages.service.sea-freight',
-    '/service/sea-transportation' => 'pages.service.sea-transportation',
-    '/service/train-freight' => 'pages.service.train-freight',
-    '/service/transparent-pricing' => 'pages.service.transparent-pricing',
-    '/service/transportation' => 'pages.service.transportation',
-    '/service/trusted-franchise' => 'pages.service.trusted-franchise',
-    '/service/verlassenschaften' => 'pages.service.verlassenschaften',
-    '/service/warehoues-storage' => 'pages.service.warehoues-storage',
-    '/service/warehousing' => 'pages.service.warehousing',
-    '/service/wohnungsraumung-und-haushaltsauflosungen' => 'pages.service.wohnungsraumung-und-haushaltsauflosungen',
-    '/service/zusatzleistungen-mehr-als-nur-entrumpeln' => 'pages.service.zusatzleistungen-mehr-als-nur-entrumpeln',
-    '/sinthia-forester' => 'pages.sinthia-forester',
-    '/sperrmull-abholung-wien' => 'pages.sperrmull-abholung-wien',
-    '/sultan-malik-oglu' => 'pages.sultan-malik-oglu',
-    '/tatortreinigung-wien' => 'pages.tatortreinigung-wien',
-    '/team/douglas-martin' => 'pages.team.douglas-martin',
-    '/team/ethan-portman' => 'pages.team.ethan-portman',
-    '/team/fred-gray' => 'pages.team.fred-gray',
-    '/team/jennifer-rivera' => 'pages.team.jennifer-rivera',
-    '/team/john-doe' => 'pages.team.john-doe',
-    '/team/johnny-watson' => 'pages.team.johnny-watson',
-    '/team/keith-smith' => 'pages.team.keith-smith',
-    '/team/scott-anderson' => 'pages.team.scott-anderson',
-    '/team/sinthia-forester' => 'pages.team.sinthia-forester',
-    '/team/sultan-malik-oglu' => 'pages.team.sultan-malik-oglu',
-    '/testimonials/alex-jhon-martin' => 'pages.testimonials.alex-jhon-martin',
-    '/testimonials/devid-smith' => 'pages.testimonials.devid-smith',
-    '/testimonials/erin-chang' => 'pages.testimonials.erin-chang',
-    '/testimonials/gallen-maxwell' => 'pages.testimonials.gallen-maxwell',
-    '/testimonials/jane-salima' => 'pages.testimonials.jane-salima',
-    '/testimonials/john-doe' => 'pages.testimonials.john-doe',
-    '/testimonials/jon-doe' => 'pages.testimonials.jon-doe',
-    '/testimonials/lillian-grace' => 'pages.testimonials.lillian-grace',
-    '/testimonials/lucy-davies' => 'pages.testimonials.lucy-davies',
-    '/testimonials/maria-h' => 'pages.testimonials.maria-h',
-    '/testimonials/mike-martien' => 'pages.testimonials.mike-martien',
-    '/testimonials/nathan-felix' => 'pages.testimonials.nathan-felix',
-    '/testimonials/poul-smith' => 'pages.testimonials.poul-smith',
-    '/testimonials/roman-dexter' => 'pages.testimonials.roman-dexter',
-    '/testimonials/sabine-l' => 'pages.testimonials.sabine-l',
-    '/testimonials/steve-powers' => 'pages.testimonials.steve-powers',
-    '/testimonials/thomas-k' => 'pages.testimonials.thomas-k',
-    '/todesfall-entrumpelung-wien' => 'pages.todesfall-entrumpelung-wien',
-    '/todesfall-raumung' => 'pages.todesfall-raumung',
-    '/top-entrumpelungsunternehmen-wien' => 'pages.top-entrumpelungsunternehmen-wien',
-    '/uber-uns' => 'pages.uber-uns',
-    '/unsere-dienstleistungen' => 'pages.unsere-dienstleistungen',
-    '/verlassenschaft-entrumpelung-wien' => 'pages.verlassenschaft-entrumpelung-wien',
-    '/verlassenschaft-in-wien' => 'pages.verlassenschaft-in-wien',
-    '/verlassenschaft-raumung-wien' => 'pages.verlassenschaft-raumung-wien',
-    '/verlassenschaft-raumung-wien-1110' => 'pages.verlassenschaft-raumung-wien-1110',
-    '/wohnungsauflosung-wien' => 'pages.wohnungsauflosung-wien',
-    '/wohnungsentrumpelung-wien' => 'pages.wohnungsentrumpelung-wien',
-    '/wohnungsraumung-wien-1080' => 'pages.wohnungsraumung-wien-1080',
-    '/zwangsraumung-wien' => 'pages.zwangsraumung-wien',
-];
+Route::view('/', 'pages.index');
+Route::view('/ankauf-verlassenschaften-wien', 'pages.ankauf-verlassenschaften-wien');
+Route::view('/besenreine-entrumpelung', 'pages.besenreine-entrumpelung');
+Route::view('/betriebsauflosung-wien', 'pages.betriebsauflosung-wien');
+Route::view('/blog', 'pages.blog');
+Route::view('/buroentrumpelung-wien', 'pages.buroentrumpelung-wien');
+Route::view('/checklists', 'pages.checklists');
+Route::view('/contact', 'pages.contact');
+Route::view('/dachboden-entrumpelung', 'pages.dachboden-entrumpelung');
+Route::view('/dachgeschoss-raumung-wien', 'pages.dachgeschoss-raumung-wien');
+Route::view('/dachgeschoss-raumung-wien-2', 'pages.dachgeschoss-raumung-wien-2');
+Route::view('/datenschutz-haftungsauschluss', 'pages.datenschutz-haftungsauschluss');
+Route::view('/die-nummer-1-entrumpelungsfirma-wien', 'pages.die-nummer-1-entrumpelungsfirma-wien');
+Route::view('/douglas-martin', 'pages.douglas-martin');
+Route::view('/effektive-lagerraumung-wien', 'pages.effektive-lagerraumung-wien');
+Route::view('/effiziente-entrumpelung-wien-1020', 'pages.effiziente-entrumpelung-wien-1020');
+Route::view('/elementor-hf/home-page-02', 'pages.elementor-hf.home-page-02');
+Route::view('/elementor-hf/home-v7-footer', 'pages.elementor-hf.home-v7-footer');
+Route::view('/elementor-hf/home-v7-footer-2', 'pages.elementor-hf.home-v7-footer-2');
+Route::view('/enquiry-form', 'pages.enquiry-form');
+Route::view('/entrumpelung', 'pages.entrumpelung');
+Route::view('/entrumpelungen-wien', 'pages.entrumpelungen-wien');
+Route::view('/entrumpelung-in-wien-1080', 'pages.entrumpelung-in-wien-1080');
+Route::view('/entrumpelungsdienst-wien', 'pages.entrumpelungsdienst-wien');
+Route::view('/entrumpelungsfirma-wien', 'pages.entrumpelungsfirma-wien');
+Route::view('/entrumpelungsprofi-wien', 'pages.entrumpelungsprofi-wien');
+Route::view('/entrumpelungsservice-wien', 'pages.entrumpelungsservice-wien');
+Route::view('/entrumpelungsunternehmen-wien', 'pages.entrumpelungsunternehmen-wien');
+Route::view('/entrumpelung-wien-1010', 'pages.entrumpelung-wien-1010');
+Route::view('/entrumpelung-wien-1020', 'pages.entrumpelung-wien-1020');
+Route::view('/entrumpelung-wien-1030', 'pages.entrumpelung-wien-1030');
+Route::view('/entrumpelung-wien-1040', 'pages.entrumpelung-wien-1040');
+Route::view('/entrumpelung-wien-1050', 'pages.entrumpelung-wien-1050');
+Route::view('/entrumpelung-wien-1060', 'pages.entrumpelung-wien-1060');
+Route::view('/entrumpelung-wien-1070', 'pages.entrumpelung-wien-1070');
+Route::view('/entrumpelung-wien-1090', 'pages.entrumpelung-wien-1090');
+Route::view('/entrumpelung-wien-1100', 'pages.entrumpelung-wien-1100');
+Route::view('/entrumpelung-wien-1110', 'pages.entrumpelung-wien-1110');
+Route::view('/entrumpelung-wien-1120', 'pages.entrumpelung-wien-1120');
+Route::view('/entrumpelung-wien-1150', 'pages.entrumpelung-wien-1150');
+Route::view('/entrumpelung-wien-1160', 'pages.entrumpelung-wien-1160');
+Route::view('/entrumpelung-wien-1170', 'pages.entrumpelung-wien-1170');
+Route::view('/entrumpelung-wien-1180', 'pages.entrumpelung-wien-1180');
+Route::view('/entrumpelung-wien-1190', 'pages.entrumpelung-wien-1190');
+Route::view('/entrumpelung-wien-1200', 'pages.entrumpelung-wien-1200');
+Route::view('/entrumpler-wien', 'pages.entrumpler-wien');
+Route::view('/ethan-portman', 'pages.ethan-portman');
+Route::view('/faqs', 'pages.faqs');
+Route::view('/faqs/10-wie-schnell-kann-eine-entrumpelung-in-wien-durchgefuhrt-werden', 'pages.faqs.10-wie-schnell-kann-eine-entrumpelung-in-wien-durchgefuhrt-werden');
+Route::view('/faqs/1-was-umfasst-eine-entrumpelung-in-wien', 'pages.faqs.1-was-umfasst-eine-entrumpelung-in-wien');
+Route::view('/faqs/2-wie-lauft-eine-wohnungsraumung-in-wien-ab', 'pages.faqs.2-wie-lauft-eine-wohnungsraumung-in-wien-ab');
+Route::view('/faqs/3-was-kostet-eine-entrumpelung-in-wien', 'pages.faqs.3-was-kostet-eine-entrumpelung-in-wien');
+Route::view('/faqs/4-bietet-ihre-raumungsfirma-in-wien-einen-entrumpelungsservice-fur-keller', 'pages.faqs.4-bietet-ihre-raumungsfirma-in-wien-einen-entrumpelungsservice-fur-keller');
+Route::view('/faqs/5-was-unterscheidet-rapid-raumungen-von-anderen-entrumpelungsfirmen-in-wien', 'pages.faqs.5-was-unterscheidet-rapid-raumungen-von-anderen-entrumpelungsfirmen-in-wien');
+Route::view('/faqs/6-ubernehmen-sie-auch-messie-entrumpelungen', 'pages.faqs.6-ubernehmen-sie-auch-messie-entrumpelungen');
+Route::view('/faqs/7-kann-ich-ihre-raumungsfirma-fur-verlassenschaften-in-niederosterreich-beauftragen', 'pages.faqs.7-kann-ich-ihre-raumungsfirma-fur-verlassenschaften-in-niederosterreich-beauftragen');
+Route::view('/faqs/8-was-bedeutet-gratis-entrumpelung', 'pages.faqs.8-was-bedeutet-gratis-entrumpelung');
+Route::view('/faqs/9-welche-leistungen-bietet-ihre-raumungsfirma-fur-dachboden-an', 'pages.faqs.9-welche-leistungen-bietet-ihre-raumungsfirma-fur-dachboden-an');
+Route::view('/faqs/bieten-wir-auch-reinigungen-an', 'pages.faqs.bieten-wir-auch-reinigungen-an');
+Route::view('/faqs/bietet-rapid-raumungen-eine-kostenlose-besichtigung-an', 'pages.faqs.bietet-rapid-raumungen-eine-kostenlose-besichtigung-an');
+Route::view('/faqs/bietet-rapid-raumungen-entrumpelungen-in-wien-und-niederosterreich-an', 'pages.faqs.bietet-rapid-raumungen-entrumpelungen-in-wien-und-niederosterreich-an');
+Route::view('/faqs/fuhren-wir-auch-umzuge-durch', 'pages.faqs.fuhren-wir-auch-umzuge-durch');
+Route::view('/faqs/kann-ich-bei-einer-raumung-in-wien-mit-wertanrechnung-rechnen', 'pages.faqs.kann-ich-bei-einer-raumung-in-wien-mit-wertanrechnung-rechnen');
+Route::view('/faqs/kostet-die-besichtigung-etwas', 'pages.faqs.kostet-die-besichtigung-etwas');
+Route::view('/faqs/muss-ich-bei-der-wohnungsraumung-hausraumung-anwesend-sein', 'pages.faqs.muss-ich-bei-der-wohnungsraumung-hausraumung-anwesend-sein');
+Route::view('/faqs/ubernimmt-rapid-raumungen-auch-die-entsorgung-der-gegenstande', 'pages.faqs.ubernimmt-rapid-raumungen-auch-die-entsorgung-der-gegenstande');
+Route::view('/faqs/warum-sollte-ich-mich-fur-rapid-raumungen-entscheiden', 'pages.faqs.warum-sollte-ich-mich-fur-rapid-raumungen-entscheiden');
+Route::view('/faqs/was-gehort-zu-unserem-service', 'pages.faqs.was-gehort-zu-unserem-service');
+Route::view('/faqs/was-kostet-eine-entrumpelung-bei-uns', 'pages.faqs.was-kostet-eine-entrumpelung-bei-uns');
+Route::view('/faqs/was-kostet-eine-entrumpelung-wien', 'pages.faqs.was-kostet-eine-entrumpelung-wien');
+Route::view('/faqs/was-passiert-wenn-ein-schaden-entsteht', 'pages.faqs.was-passiert-wenn-ein-schaden-entsteht');
+Route::view('/faqs/was-umfasst-eine-entrumpelung-wien-durch-rapid-raumungen', 'pages.faqs.was-umfasst-eine-entrumpelung-wien-durch-rapid-raumungen');
+Route::view('/faqs/welche-arten-von-entrumpelungen-fuhren-wir-durch', 'pages.faqs.welche-arten-von-entrumpelungen-fuhren-wir-durch');
+Route::view('/faqs/welche-vorteile-bietet-eine-wohnungsraumung-in-wien-mit-rapid-raumungen', 'pages.faqs.welche-vorteile-bietet-eine-wohnungsraumung-in-wien-mit-rapid-raumungen');
+Route::view('/faqs/wie-lange-dauert-eine-raumung', 'pages.faqs.wie-lange-dauert-eine-raumung');
+Route::view('/faqs/wie-lange-dauert-es-im-schnitt-bis-ich-einen-termin-zur-besichtigung-habe', 'pages.faqs.wie-lange-dauert-es-im-schnitt-bis-ich-einen-termin-zur-besichtigung-habe');
+Route::view('/faqs/wie-lange-sind-wir-als-entrumpelungsfirma-tatig', 'pages.faqs.wie-lange-sind-wir-als-entrumpelungsfirma-tatig');
+Route::view('/faqs/wie-lauft-eine-messie-entrumpelung-bei-rapid-raumungen-ab', 'pages.faqs.wie-lauft-eine-messie-entrumpelung-bei-rapid-raumungen-ab');
+Route::view('/faqs/wie-schnell-kann-ein-termin-fur-eine-entrumpelung-vereinbart-werden', 'pages.faqs.wie-schnell-kann-ein-termin-fur-eine-entrumpelung-vereinbart-werden');
+Route::view('/faqs/wieso-genau-wir', 'pages.faqs.wieso-genau-wir');
+Route::view('/faqs/wo-in-osterreich-sind-wir-tatig', 'pages.faqs.wo-in-osterreich-sind-wir-tatig');
+Route::view('/firmenraumung-wien', 'pages.firmenraumung-wien');
+Route::view('/fred-gray', 'pages.fred-gray');
+Route::view('/garagenentrumpelung', 'pages.garagenentrumpelung');
+Route::view('/gartenentrumpelung', 'pages.gartenentrumpelung');
+Route::view('/gemeindewohnung-entrumpelung-wien', 'pages.gemeindewohnung-entrumpelung-wien');
+Route::view('/genossenschaft-wohnung-entrumpelung-wien', 'pages.genossenschaft-wohnung-entrumpelung-wien');
+Route::view('/geschaftsauflosung-wien', 'pages.geschaftsauflosung-wien');
+Route::view('/gratis-entrumpelung-wien', 'pages.gratis-entrumpelung-wien');
+Route::view('/haushaltsauflosung-wien', 'pages.haushaltsauflosung-wien');
+Route::view('/hausraumung-wien', 'pages.hausraumung-wien');
+Route::view('/home-09-onepage', 'pages.home-09-onepage');
+Route::view('/home-10-one-page', 'pages.home-10-one-page');
+Route::view('/home-11', 'pages.home-11');
+Route::view('/home-11-one-page', 'pages.home-11-one-page');
+Route::view('/home-1one-page', 'pages.home-1one-page');
+Route::view('/home-2-one-page', 'pages.home-2-one-page');
+Route::view('/home-3-one-page', 'pages.home-3-one-page');
+Route::view('/home-4-one-page', 'pages.home-4-one-page');
+Route::view('/home-6-one-page', 'pages.home-6-one-page');
+Route::view('/home-7-one-page', 'pages.home-7-one-page');
+Route::view('/home-8-one-page', 'pages.home-8-one-page');
+Route::view('/home-page-01', 'pages.home-page-01');
+Route::view('/home-page-03', 'pages.home-page-03');
+Route::view('/home-page-04', 'pages.home-page-04');
+Route::view('/home-page-05', 'pages.home-page-05');
+Route::view('/home-page-06', 'pages.home-page-06');
+Route::view('/home-page-07', 'pages.home-page-07');
+Route::view('/home-page-08', 'pages.home-page-08');
+Route::view('/home-page-09', 'pages.home-page-09');
+Route::view('/home-page-10', 'pages.home-page-10');
+Route::view('/impressum', 'pages.impressum');
+Route::view('/index', 'pages.index');
+Route::view('/jennifer-rivera', 'pages.jennifer-rivera');
+Route::view('/john-doe', 'pages.john-doe');
+Route::view('/johnny-watson', 'pages.johnny-watson');
+Route::view('/keith-smith', 'pages.keith-smith');
+Route::view('/kontakt', 'pages.kontakt');
+Route::view('/lagerentrumpelung-wien', 'pages.lagerentrumpelung-wien');
+Route::view('/lagerraumung-wien', 'pages.lagerraumung-wien');
+Route::view('/messie-entrumpelung', 'pages.messie-entrumpelung');
+Route::view('/messie-wohnung-entrumpelung', 'pages.messie-wohnung-entrumpelung');
+Route::view('/nachlassauflosung-wien', 'pages.nachlassauflosung-wien');
+Route::view('/nachlass-entrumpelung-wien', 'pages.nachlass-entrumpelung-wien');
+Route::view('/new-home-page', 'pages.new-home-page');
+Route::view('/our-faqs', 'pages.our-faqs');
+Route::view('/our-services', 'pages.our-services');
+Route::view('/professionelle-dachgeschoss-raumung-wien', 'pages.professionelle-dachgeschoss-raumung-wien');
+Route::view('/project/air-freight-forwarding', 'pages.project.air-freight-forwarding');
+Route::view('/project/air-frieght-overview', 'pages.project.air-frieght-overview');
+Route::view('/project/a-national-wholesale-distributor', 'pages.project.a-national-wholesale-distributor');
+Route::view('/project/cartonization-technology-in-parcel-freight', 'pages.project.cartonization-technology-in-parcel-freight');
+Route::view('/project/cash-counters-to-paddington-station', 'pages.project.cash-counters-to-paddington-station');
+Route::view('/project/collaborative-supply-chains', 'pages.project.collaborative-supply-chains');
+Route::view('/project/ct-scanner-from-italy-to-the-uk', 'pages.project.ct-scanner-from-italy-to-the-uk');
+Route::view('/project/customized-fleet-technology-solutions', 'pages.project.customized-fleet-technology-solutions');
+Route::view('/project/ground-shipping', 'pages.project.ground-shipping');
+Route::view('/project/industrial-and-air-shipping-2', 'pages.project.industrial-and-air-shipping-2');
+Route::view('/project/international-air-freight', 'pages.project.international-air-freight');
+Route::view('/project/lane-pairing-analysis', 'pages.project.lane-pairing-analysis');
+Route::view('/project/large-projects-in-air', 'pages.project.large-projects-in-air');
+Route::view('/project/managing-the-inbound-auto-supply-chain', 'pages.project.managing-the-inbound-auto-supply-chain');
+Route::view('/project/ocean-cargo-roundtable', 'pages.project.ocean-cargo-roundtable');
+Route::view('/project/ocean-freight-and-shipping', 'pages.project.ocean-freight-and-shipping');
+Route::view('/project/optimizing-activities-in-distribution', 'pages.project.optimizing-activities-in-distribution');
+Route::view('/project/service-aftermarket-logistics', 'pages.project.service-aftermarket-logistics');
+Route::view('/project/specialist-transport-services', 'pages.project.specialist-transport-services');
+Route::view('/project/uk-exhibition-support-for-teneso-italy', 'pages.project.uk-exhibition-support-for-teneso-italy');
+Route::view('/project/usage-of-electric-vehicles-in-work-of-our-company', 'pages.project.usage-of-electric-vehicles-in-work-of-our-company');
+Route::view('/raumungsdienst-wien', 'pages.raumungsdienst-wien');
+Route::view('/raumungsfirma-wien', 'pages.raumungsfirma-wien');
+Route::view('/raumungsunternehmen-wien', 'pages.raumungsunternehmen-wien');
+Route::view('/raumung-wien', 'pages.raumung-wien');
+Route::view('/raumung-wien-1070', 'pages.raumung-wien-1070');
+Route::view('/raumung-wien-1100', 'pages.raumung-wien-1100');
+Route::view('/raumung-wien-1130', 'pages.raumung-wien-1130');
+Route::view('/raumung-wien-1140', 'pages.raumung-wien-1140');
+Route::view('/scott-anderson', 'pages.scott-anderson');
+Route::view('/seniorenheim-entrumpelung', 'pages.seniorenheim-entrumpelung');
+Route::view('/service/air-freight', 'pages.service.air-freight');
+Route::view('/service/air-freight-service', 'pages.service.air-freight-service');
+Route::view('/service/buroraumungen-fur-firmen-in-wien-und-umgebung', 'pages.service.buroraumungen-fur-firmen-in-wien-und-umgebung');
+Route::view('/service/cars-freight', 'pages.service.cars-freight');
+Route::view('/service/contract-logistic', 'pages.service.contract-logistic');
+Route::view('/service/corporate-air-frieght', 'pages.service.corporate-air-frieght');
+Route::view('/service/custom-brokerage', 'pages.service.custom-brokerage');
+Route::view('/service/customer-support', 'pages.service.customer-support');
+Route::view('/service/custom-solutions', 'pages.service.custom-solutions');
+Route::view('/service/entrumpelung-wien-platz-schaffen-leicht-gemacht', 'pages.service.entrumpelung-wien-platz-schaffen-leicht-gemacht');
+Route::view('/service/industry-solutions', 'pages.service.industry-solutions');
+Route::view('/service/keller-und-dachbodenraumungen', 'pages.service.keller-und-dachbodenraumungen');
+Route::view('/service/ocean-freight', 'pages.service.ocean-freight');
+Route::view('/service/rail-freight', 'pages.service.rail-freight');
+Route::view('/service/raumung-wien-schnell-und-effizient', 'pages.service.raumung-wien-schnell-und-effizient');
+Route::view('/service/real-time-tracking', 'pages.service.real-time-tracking');
+Route::view('/service/reliability-punctuality', 'pages.service.reliability-punctuality');
+Route::view('/service/road-freight', 'pages.service.road-freight');
+Route::view('/service/road-transportation', 'pages.service.road-transportation');
+Route::view('/service/safe-secure-deliver', 'pages.service.safe-secure-deliver');
+Route::view('/service/sea-freight', 'pages.service.sea-freight');
+Route::view('/service/sea-transportation', 'pages.service.sea-transportation');
+Route::view('/service/train-freight', 'pages.service.train-freight');
+Route::view('/service/transparent-pricing', 'pages.service.transparent-pricing');
+Route::view('/service/transportation', 'pages.service.transportation');
+Route::view('/service/trusted-franchise', 'pages.service.trusted-franchise');
+Route::view('/service/verlassenschaften', 'pages.service.verlassenschaften');
+Route::view('/service/warehoues-storage', 'pages.service.warehoues-storage');
+Route::view('/service/warehousing', 'pages.service.warehousing');
+Route::view('/service/wohnungsraumung-und-haushaltsauflosungen', 'pages.service.wohnungsraumung-und-haushaltsauflosungen');
+Route::view('/service/zusatzleistungen-mehr-als-nur-entrumpeln', 'pages.service.zusatzleistungen-mehr-als-nur-entrumpeln');
+Route::view('/sinthia-forester', 'pages.sinthia-forester');
+Route::view('/sperrmull-abholung-wien', 'pages.sperrmull-abholung-wien');
+Route::view('/sultan-malik-oglu', 'pages.sultan-malik-oglu');
+Route::view('/tatortreinigung-wien', 'pages.tatortreinigung-wien');
+Route::view('/team/douglas-martin', 'pages.team.douglas-martin');
+Route::view('/team/ethan-portman', 'pages.team.ethan-portman');
+Route::view('/team/fred-gray', 'pages.team.fred-gray');
+Route::view('/team/jennifer-rivera', 'pages.team.jennifer-rivera');
+Route::view('/team/john-doe', 'pages.team.john-doe');
+Route::view('/team/johnny-watson', 'pages.team.johnny-watson');
+Route::view('/team/keith-smith', 'pages.team.keith-smith');
+Route::view('/team/scott-anderson', 'pages.team.scott-anderson');
+Route::view('/team/sinthia-forester', 'pages.team.sinthia-forester');
+Route::view('/team/sultan-malik-oglu', 'pages.team.sultan-malik-oglu');
+Route::view('/testimonials/alex-jhon-martin', 'pages.testimonials.alex-jhon-martin');
+Route::view('/testimonials/devid-smith', 'pages.testimonials.devid-smith');
+Route::view('/testimonials/erin-chang', 'pages.testimonials.erin-chang');
+Route::view('/testimonials/gallen-maxwell', 'pages.testimonials.gallen-maxwell');
+Route::view('/testimonials/jane-salima', 'pages.testimonials.jane-salima');
+Route::view('/testimonials/john-doe', 'pages.testimonials.john-doe');
+Route::view('/testimonials/jon-doe', 'pages.testimonials.jon-doe');
+Route::view('/testimonials/lillian-grace', 'pages.testimonials.lillian-grace');
+Route::view('/testimonials/lucy-davies', 'pages.testimonials.lucy-davies');
+Route::view('/testimonials/maria-h', 'pages.testimonials.maria-h');
+Route::view('/testimonials/mike-martien', 'pages.testimonials.mike-martien');
+Route::view('/testimonials/nathan-felix', 'pages.testimonials.nathan-felix');
+Route::view('/testimonials/poul-smith', 'pages.testimonials.poul-smith');
+Route::view('/testimonials/roman-dexter', 'pages.testimonials.roman-dexter');
+Route::view('/testimonials/sabine-l', 'pages.testimonials.sabine-l');
+Route::view('/testimonials/steve-powers', 'pages.testimonials.steve-powers');
+Route::view('/testimonials/thomas-k', 'pages.testimonials.thomas-k');
+Route::view('/todesfall-entrumpelung-wien', 'pages.todesfall-entrumpelung-wien');
+Route::view('/todesfall-raumung', 'pages.todesfall-raumung');
+Route::view('/top-entrumpelungsunternehmen-wien', 'pages.top-entrumpelungsunternehmen-wien');
+Route::view('/uber-uns', 'pages.uber-uns');
+Route::view('/unsere-dienstleistungen', 'pages.unsere-dienstleistungen');
+Route::view('/verlassenschaft-entrumpelung-wien', 'pages.verlassenschaft-entrumpelung-wien');
+Route::view('/verlassenschaft-in-wien', 'pages.verlassenschaft-in-wien');
+Route::view('/verlassenschaft-raumung-wien', 'pages.verlassenschaft-raumung-wien');
+Route::view('/verlassenschaft-raumung-wien-1110', 'pages.verlassenschaft-raumung-wien-1110');
+Route::view('/wohnungsauflosung-wien', 'pages.wohnungsauflosung-wien');
+Route::view('/wohnungsentrumpelung-wien', 'pages.wohnungsentrumpelung-wien');
+Route::view('/wohnungsraumung-wien-1080', 'pages.wohnungsraumung-wien-1080');
+Route::view('/zwangsraumung-wien', 'pages.zwangsraumung-wien');
 
-foreach ($pageRoutes as $uri => $view) {
-    Route::view($uri, $view);
-}
+Route::get('/{slug}', [BlogPostController::class, 'show']);
+
+Route::fallback(function () {
+    abort(404);
+});
+

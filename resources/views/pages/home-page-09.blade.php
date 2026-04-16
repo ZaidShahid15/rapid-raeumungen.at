@@ -667,10 +667,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 					        <!-- Start of Slider section
         ============================================= -->
-        <section id="tl-thx-banner" class="tl-thx-banner-section position-relative"  data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/slider-bg.jpg">
-            <div class="tl-thx-banner-img position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/s1.png"></div>
-            <div class="tl-thx-banner-img2 position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/s3.png"></div>
-            <div class="tl-thx-banner-img3 position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/s2.png"></div>
+        <section id="tl-thx-banner" class="tl-thx-banner-section position-relative"  data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/slider-bg.jpg">
+            <div class="tl-thx-banner-img position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/s1.png"></div>
+            <div class="tl-thx-banner-img2 position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/s3.png"></div>
+            <div class="tl-thx-banner-img3 position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/s2.png"></div>
             <div class="container">
                 <div class="tl-thx-banner-text text-center position-relative headline pera-content">
                     <h1>Air Partner With the experts</h1>
@@ -710,7 +710,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-service-inner-item position-relative">
                                 <div class="tl-thx-service-img-wrapper position-relative">
                                     <div class="tl-thx-service-img">
-                                                                                <img decoding="async" class="w-100" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser1.jpg" alt="">
+                                                                                <img decoding="async" class="w-100" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser1.jpg" alt="">
                                                                             </div>
                                     <div class="tl-thx-service-text-icon">
                                         <div class="tl-thx-service-icon">
@@ -730,7 +730,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-service-inner-item position-relative">
                                 <div class="tl-thx-service-img-wrapper position-relative">
                                     <div class="tl-thx-service-img">
-                                                                                <img decoding="async" class="w-100" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser2.jpg" alt="">
+                                                                                <img decoding="async" class="w-100" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser2.jpg" alt="">
                                                                             </div>
                                     <div class="tl-thx-service-text-icon">
                                         <div class="tl-thx-service-icon">
@@ -750,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-service-inner-item position-relative">
                                 <div class="tl-thx-service-img-wrapper position-relative">
                                     <div class="tl-thx-service-img">
-                                                                                <img decoding="async" class="w-100" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser3.jpg" alt="">
+                                                                                <img decoding="async" class="w-100" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser3.jpg" alt="">
                                                                             </div>
                                     <div class="tl-thx-service-text-icon">
                                         <div class="tl-thx-service-icon">
@@ -770,7 +770,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-service-inner-item position-relative">
                                 <div class="tl-thx-service-img-wrapper position-relative">
                                     <div class="tl-thx-service-img">
-                                                                                <img decoding="async" class="w-100" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser4.jpg" alt="">
+                                                                                <img decoding="async" class="w-100" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/ser4.jpg" alt="">
                                                                             </div>
                                     <div class="tl-thx-service-text-icon">
                                         <div class="tl-thx-service-icon">
@@ -809,7 +809,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 					        <!-- Start of video section
         ============================================= -->
-        <section id="tl-thx-video" class="tl-thx-video-section position-relative" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/10/v-bg.jpg">
+        <section id="tl-thx-video" class="tl-thx-video-section position-relative" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2021/10/v-bg.jpg">
             <div class="background_overlay"></div>
             <div class="container">
                 <div class="tl-thx-video-content position-relative">
@@ -863,7 +863,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-team-inner-item text-center position-relative">
                                 <div class="tl-thx-team-img-social-wrapper position-relative">
                                     <div class="tl-thx-team-img position-relative">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm1.jpg">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm1.jpg">
                                     </div>
                                     <div class="tl-thx-team-social">
 
@@ -896,7 +896,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-team-inner-item text-center position-relative">
                                 <div class="tl-thx-team-img-social-wrapper position-relative">
                                     <div class="tl-thx-team-img position-relative">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm2.jpg">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm2.jpg">
                                     </div>
                                     <div class="tl-thx-team-social">
 
@@ -929,7 +929,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-team-inner-item text-center position-relative">
                                 <div class="tl-thx-team-img-social-wrapper position-relative">
                                     <div class="tl-thx-team-img position-relative">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm3.jpg">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm3.jpg">
                                     </div>
                                     <div class="tl-thx-team-social">
 
@@ -962,7 +962,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="tl-thx-team-inner-item text-center position-relative">
                                 <div class="tl-thx-team-img-social-wrapper position-relative">
                                     <div class="tl-thx-team-img position-relative">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm4.jpg">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tm4.jpg">
                                     </div>
                                     <div class="tl-thx-team-social">
 
@@ -1014,10 +1014,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							
         <!-- Start of Testimonial section
         ============================================= -->
-        <section id="tl-thx-testimonial" class="tl-thx-testimonial-section" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tst-bg1.jpg">
+        <section id="tl-thx-testimonial" class="tl-thx-testimonial-section" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tst-bg1.jpg">
             <div class="container">
                 <div class="tl-thx-testimonial-content position-relative">
-                    <span class="testimonial-shape1 position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tst-shape.png"></span>
+                    <span class="testimonial-shape1 position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/tst-shape.png"></span>
                     <div class="tl-thx-section-title headline pera-content text-center">
                         <h2><i></i>Our Client’s Testimonials</h2>
                     </div>
@@ -1096,7 +1096,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="col-lg-6  wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div class="tl-thx-blog-img-wrapper headline position-relative">
                                     <div class="tl-thx-blog-img">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/blg1.jpg" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/blg1.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -1138,14 +1138,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					        <section id="tl-thx-contact" class="tl-thx-contact-section">
             <div class="container">
                 <div class="tl-thx-contact-content position-relative">
-                    <span class="tl-thx-contact-img position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/c-bg.jpg" alt=""></span>
-                    <span class="tl-thx-contact-img2 position-absolute  wow fadeInRight" data-wow-delay="200ms" data-wow-duration="2000ms"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/plane.png" alt=""></span>
+                    <span class="tl-thx-contact-img position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/c-bg.jpg" alt=""></span>
+                    <span class="tl-thx-contact-img2 position-absolute  wow fadeInRight" data-wow-delay="200ms" data-wow-duration="2000ms"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/plane.png" alt=""></span>
                     <div class="tl-thx-contact-text-form">
                         <div class="tl-thx-contact-text-area">
                             <div class="tl-thx-section-title headline text-left pera-content">
                                 <h2><i></i>Get Shipping Quote</h2>
                                 <p>Say hello to your potential team, each a master of their respective craft. You can provide encrypted and secure access to your files.</p>
-                                <span class="tl-thx-contact-line"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/line.png"></span>
+                                <span class="tl-thx-contact-line"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/04/line.png"></span>
                             </div>
                             <div class="tl-thx-contact-info ul-li-block">
                                 <ul>

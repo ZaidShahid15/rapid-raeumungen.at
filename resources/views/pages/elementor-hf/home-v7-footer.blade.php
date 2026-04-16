@@ -940,7 +940,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 					
         <!-- Start Service Section -->
-        <section id="ftn-service" class="ftn-service-section position-relative" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser-bg.png">
+        <section id="ftn-service" class="ftn-service-section position-relative" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser-bg.png">
 		<div class="container">
 			<div class="ftn-section-title text-center headline  wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 
@@ -1116,7 +1116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
                     				</div>
 			</div>
-			<div class="ftn-about-text-wrapper" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab-bg.jpg">
+			<div class="ftn-about-text-wrapper" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab-bg.jpg">
 				<div class="ftn-about-text-area">
 					<div class="ftn-section-title headline  wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <span class="sub-title text-uppercase">Wir sind Rapid Räumungen</span>

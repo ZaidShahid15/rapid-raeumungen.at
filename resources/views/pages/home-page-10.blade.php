@@ -709,7 +709,7 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 					
         <!-- Feature Section -->
         <section id="ftn-feature" class="ftn-feature-section position-relative">
-		<span class="ftn-feature-map position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/map-1.png" alt=""></span>
+		<span class="ftn-feature-map position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/map-1.png" alt=""></span>
 		<div class="container">
 			<div class="ftn-section-title headline  wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 
@@ -786,21 +786,21 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 		<div class="ftn-about-content d-flex">
 			<div class="ftn-about-img-wrapper d-flex">
                 				<div class="ftn-about-img1">
-					<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab1.jpg" alt="">
+					<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab1.jpg" alt="">
 				</div>
                                 
 				<div class="ftn-about-img-wrap">
 
                     					<div class="ftn-about-img2">
-						<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab2.jpg" alt="">
+						<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab2.jpg" alt="">
 					</div>
                     
                     					<div class="ftn-about-img3">
-						<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab3.jpg" alt="">
+						<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab3.jpg" alt="">
 					</div>
                     				</div>
 			</div>
-			<div class="ftn-about-text-wrapper" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab-bg.jpg">
+			<div class="ftn-about-text-wrapper" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ab-bg.jpg">
 				<div class="ftn-about-text-area">
 					<div class="ftn-section-title headline  wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <span class="sub-title text-uppercase">We are Fastrans</span>
@@ -859,7 +859,7 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 				<div class="elementor-widget-container">
 					
         <!-- Start Service Section -->
-        <section id="ftn-service" class="ftn-service-section position-relative" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser-bg.png">
+        <section id="ftn-service" class="ftn-service-section position-relative" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser-bg.png">
 		<div class="container">
 			<div class="ftn-section-title text-center headline  wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 
@@ -881,11 +881,11 @@ tion across the UK, Ireland and Europe.</sr7-txt>
                                 <div class="ftn-service-img-icon position-relative">
 
                                                                         <div class="ftn-service-icon d-flex align-items-center justify-content-center position-absolute">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic1.png" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic1.png" alt="">
                                     </div>
                                     
                                                                         <div class="ftn-service-img">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser1.jpg" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser1.jpg" alt="">
                                     </div>
                                                                     </div>
                             </div>
@@ -901,11 +901,11 @@ tion across the UK, Ireland and Europe.</sr7-txt>
                                 <div class="ftn-service-img-icon position-relative">
 
                                                                         <div class="ftn-service-icon d-flex align-items-center justify-content-center position-absolute">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic2.png" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic2.png" alt="">
                                     </div>
                                     
                                                                         <div class="ftn-service-img">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser2.jpg" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser2.jpg" alt="">
                                     </div>
                                                                     </div>
                             </div>
@@ -921,11 +921,11 @@ tion across the UK, Ireland and Europe.</sr7-txt>
                                 <div class="ftn-service-img-icon position-relative">
 
                                                                         <div class="ftn-service-icon d-flex align-items-center justify-content-center position-absolute">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic3.png" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic3.png" alt="">
                                     </div>
                                     
                                                                         <div class="ftn-service-img">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser3.jpg" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser3.jpg" alt="">
                                     </div>
                                                                     </div>
                             </div>
@@ -941,11 +941,11 @@ tion across the UK, Ireland and Europe.</sr7-txt>
                                 <div class="ftn-service-img-icon position-relative">
 
                                                                         <div class="ftn-service-icon d-flex align-items-center justify-content-center position-absolute">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic4.png" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic4.png" alt="">
                                     </div>
                                     
                                                                         <div class="ftn-service-img">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser4.jpg" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser4.jpg" alt="">
                                     </div>
                                                                     </div>
                             </div>
@@ -961,11 +961,11 @@ tion across the UK, Ireland and Europe.</sr7-txt>
                                 <div class="ftn-service-img-icon position-relative">
 
                                                                         <div class="ftn-service-icon d-flex align-items-center justify-content-center position-absolute">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic5.png" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic5.png" alt="">
                                     </div>
                                     
                                                                         <div class="ftn-service-img">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser5.jpg" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser5.jpg" alt="">
                                     </div>
                                                                     </div>
                             </div>
@@ -981,11 +981,11 @@ tion across the UK, Ireland and Europe.</sr7-txt>
                                 <div class="ftn-service-img-icon position-relative">
 
                                                                         <div class="ftn-service-icon d-flex align-items-center justify-content-center position-absolute">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic6.png" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ic6.png" alt="">
                                     </div>
                                     
                                                                         <div class="ftn-service-img">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser6.jpg" alt="">
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/ser6.jpg" alt="">
                                     </div>
                                                                     </div>
                             </div>
@@ -1013,18 +1013,18 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 						<div class="elementor-element elementor-element-656c7530 elementor-widget elementor-widget-tracking_order" data-id="656c7530" data-element_type="widget" data-e-type="widget" data-widget_type="tracking_order.default">
 				<div class="elementor-widget-container">
 					
-    <section id="ftn-track-order" class="ftn-track-order-section position-relative" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/trc-bg.jpg">
+    <section id="ftn-track-order" class="ftn-track-order-section position-relative" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/trc-bg.jpg">
 
-        		<span class="ftn-track-shape1 position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/sh1.png" alt=""></span>
+        		<span class="ftn-track-shape1 position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/sh1.png" alt=""></span>
         
-        		<span class="ftn-track-shape2 position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/sh2.png" alt=""></span>
+        		<span class="ftn-track-shape2 position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/sh2.png" alt=""></span>
         
 		<div class="background_overlay"></div>
 		<div class="container">
 			<div class="ftn-track-order-content position-relative">
 
                 				<div class="ftn-track-order-img position-absolute  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-					<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/trc.png" alt="">
+					<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/trc.png" alt="">
 				</div>
                 				<div class="ftn-track-order-text-area d-flex justify-content-end">
 					<div class="ftn-track-order-text-wrap">
@@ -1036,7 +1036,7 @@ tion across the UK, Ireland and Europe.</sr7-txt>
                         						<div class="ftn-track-order-desc wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             To be travel management leaders in regions in which we operate, innovative technology to improve the customer experience and bring positive change to the market.						</div>
                         
-                        						<div class="ftn-track-order-form wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/to-bg.jpg">
+                        						<div class="ftn-track-order-form wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/to-bg.jpg">
 							[tracking-form]						</div>
                         					</div>
 				</div>
@@ -1057,7 +1057,7 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 						<div class="elementor-element elementor-element-73352bdc elementor-widget elementor-widget-our_testimonial_v5" data-id="73352bdc" data-element_type="widget" data-e-type="widget" data-widget_type="our_testimonial_v5.default">
 				<div class="elementor-widget-container">
 					
-    <section id="ftn-testimonial" class="ftn-testimonial-section" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-mbg.jpg">
+    <section id="ftn-testimonial" class="ftn-testimonial-section" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-mbg.jpg">
 		<div class="container">
 			<div class="ftn-section-title text-center headline wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 
@@ -1069,13 +1069,13 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 			</div>
 			<div class="ftn-testimonial-content position-relative">
 				<div class="ftn-testimonial-img position-absolute wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
-					<img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst1.jpg" alt="">
+					<img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst1.jpg" alt="">
 				</div>
 				<div class="ftn-testimonial-slider-area  wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
 					<div class="ftn-testimonial-slider">
 												<div class="ftn-testimonial-item">
-							<div class="ftn-testimonial-area position-relative" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-bg.jpg">
-								<span class="ftn-qt-icon position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/qt.png" alt=""></span>
+							<div class="ftn-testimonial-area position-relative" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-bg.jpg">
+								<span class="ftn-qt-icon position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/qt.png" alt=""></span>
 								<div class="testimonial-rate ul-li">
 									<ul>
                                         										<li><i class="fas fa-star"></i></li>
@@ -1099,8 +1099,8 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 							</div>
 						</div>
 												<div class="ftn-testimonial-item">
-							<div class="ftn-testimonial-area position-relative" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-bg.jpg">
-								<span class="ftn-qt-icon position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/qt.png" alt=""></span>
+							<div class="ftn-testimonial-area position-relative" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-bg.jpg">
+								<span class="ftn-qt-icon position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/qt.png" alt=""></span>
 								<div class="testimonial-rate ul-li">
 									<ul>
                                         									</ul>
@@ -1119,8 +1119,8 @@ tion across the UK, Ireland and Europe.</sr7-txt>
 							</div>
 						</div>
 												<div class="ftn-testimonial-item">
-							<div class="ftn-testimonial-area position-relative" data-background="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-bg.jpg">
-								<span class="ftn-qt-icon position-absolute"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/qt.png" alt=""></span>
+							<div class="ftn-testimonial-area position-relative" data-background="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/tst-bg.jpg">
+								<span class="ftn-qt-icon position-absolute"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/09/qt.png" alt=""></span>
 								<div class="testimonial-rate ul-li">
 									<ul>
                                         									</ul>

@@ -7,6 +7,89 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 @endsection
 
 @section('head')
+<style>
+    .elementor-element.elementor-element-c59c93e .elementor-heading-title,
+    .elementor-element.elementor-element-62a3d61 .elementor-heading-title,
+    .elementor-element.elementor-element-c9f03b7 .elementor-heading-title,
+    .elementor-element.elementor-element-95b0741 .elementor-heading-title,
+    .elementor-element.elementor-element-efa29e0 .elementor-heading-title {
+        color: #FFFFFF !important;
+    }
+
+    .elementor-element.elementor-element-2e86357 .elementor-widget-container,
+    .elementor-element.elementor-element-2e86357 .elementor-widget-container *,
+    .elementor-element.elementor-element-f61321d .elementor-widget-container,
+    .elementor-element.elementor-element-f61321d .elementor-widget-container *,
+    .elementor-element.elementor-element-ad9e2a3 .elementor-widget-container,
+    .elementor-element.elementor-element-ad9e2a3 .elementor-widget-container *,
+    .elementor-element.elementor-element-0ae5ca8 .elementor-widget-container,
+    .elementor-element.elementor-element-0ae5ca8 .elementor-widget-container *,
+    .elementor-element.elementor-element-2306e89 .elementor-widget-container,
+    .elementor-element.elementor-element-2306e89 .elementor-widget-container * {
+        color: #FFFFFF !important;
+    }
+
+    .elementor-4499 .elementor-element.elementor-element-e1001fa {
+        width: 100% !important;
+        max-width: 100% !important;
+        gap: 20px !important;
+        row-gap: 20px !important;
+        column-gap: 20px !important;
+        align-items: stretch !important;
+        justify-content: center !important;
+    }
+
+    .elementor-4499 .elementor-element.elementor-element-4fa8ae7,
+    .elementor-4499 .elementor-element.elementor-element-5323dec,
+    .elementor-4499 .elementor-element.elementor-element-6c8744d,
+    .elementor-4499 .elementor-element.elementor-element-72b7149,
+    .elementor-4499 .elementor-element.elementor-element-da581fd {
+        flex: 1 1 220px !important;
+        min-width: 220px !important;
+        max-width: 280px !important;
+        align-self: stretch !important;
+    }
+
+    .elementor-4499 .elementor-element.elementor-element-d11a60f .elementor-heading-title,
+    .elementor-4499 .elementor-element.elementor-element-ab3dc8c .elementor-heading-title,
+    .elementor-4499 .elementor-element.elementor-element-f2612a5 .elementor-heading-title,
+    .elementor-4499 .elementor-element.elementor-element-4fe7481 .elementor-heading-title,
+    .elementor-4499 .elementor-element.elementor-element-3a2181b .elementor-heading-title,
+    .elementor-4499 .elementor-element.elementor-element-b60e59c,
+    .elementor-4499 .elementor-element.elementor-element-b21b5f5,
+    .elementor-4499 .elementor-element.elementor-element-3064dd9,
+    .elementor-4499 .elementor-element.elementor-element-072d86a,
+    .elementor-4499 .elementor-element.elementor-element-4ea3df3 {
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    @media (min-width: 768px) {
+        .elementor-4499 .elementor-element.elementor-element-e1001fa {
+            width: 100% !important;
+        }
+
+        .elementor-4499 .elementor-element.elementor-element-4fa8ae7,
+        .elementor-4499 .elementor-element.elementor-element-5323dec,
+        .elementor-4499 .elementor-element.elementor-element-6c8744d,
+        .elementor-4499 .elementor-element.elementor-element-72b7149,
+        .elementor-4499 .elementor-element.elementor-element-da581fd {
+            width: calc(33.333% - 20px) !important;
+            max-width: calc(33.333% - 20px) !important;
+        }
+    }
+
+    @media (min-width: 1100px) {
+        .elementor-4499 .elementor-element.elementor-element-4fa8ae7,
+        .elementor-4499 .elementor-element.elementor-element-5323dec,
+        .elementor-4499 .elementor-element.elementor-element-6c8744d,
+        .elementor-4499 .elementor-element.elementor-element-72b7149,
+        .elementor-4499 .elementor-element.elementor-element-da581fd {
+            width: calc(20% - 16px) !important;
+            max-width: calc(20% - 16px) !important;
+        }
+    }
+</style>
 @verbatim
 <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />

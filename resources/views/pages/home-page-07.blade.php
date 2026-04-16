@@ -792,7 +792,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					
         <!-- Welcome Section -->
         <div class="welcome-section">
-            <div class="pattern-layer" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-1.png)"></div>
+            <div class="pattern-layer" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-1.png)"></div>
             <div class="auto-container">
                 <div class="inner-container">
                     <div class="row clearfix">
@@ -801,7 +801,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="image-column col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-column">
                                 <div class="image">
-                                    <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/welcome.jpg" alt="" />
+                                    <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/welcome.jpg" alt="" />
                                     <div class="year-box">
                                         <div class="box-inner">
                                             <span class="icon">
@@ -877,7 +877,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                             <div class="side-icon">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-2.png" alt="" />
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-2.png" alt="" />
                             </div>
                             <div class="color-layer"></div>
                         </div>
@@ -894,7 +894,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                             <div class="side-icon">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-1.png" alt="" />
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-1.png" alt="" />
                             </div>
                             <div class="color-layer"></div>
                         </div>
@@ -911,7 +911,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                             <div class="side-icon">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-2.png" alt="" />
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-2.png" alt="" />
                             </div>
                             <div class="color-layer"></div>
                         </div>
@@ -928,7 +928,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                             </div>
                             <div class="side-icon">
-                                <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-1.png" alt="" />
+                                <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/service-1.png" alt="" />
                             </div>
                             <div class="color-layer"></div>
                         </div>
@@ -955,7 +955,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 					
         <!-- Clients Section -->
-        <div class="clients-section" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-2.png)">
+        <div class="clients-section" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-2.png)">
             <div class="auto-container">
                 <!-- Sec Title -->
                 <div class="sec-title light centered">
@@ -966,28 +966,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- Sponsors Carousel -->
                     <ul class="sponsors-carousel owl-carousel owl-theme">
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.png" alt=""></a></figure></li>
 
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/2.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/2.png" alt=""></a></figure></li>
 
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/3.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/3.png" alt=""></a></figure></li>
 
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/4.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/4.png" alt=""></a></figure></li>
 
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.png" alt=""></a></figure></li>
 
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/2.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/2.png" alt=""></a></figure></li>
 
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/3.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/3.png" alt=""></a></figure></li>
 
                         
-                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/4.png" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/4.png" alt=""></a></figure></li>
 
                                             </ul>
                 </div>
@@ -1009,7 +1009,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 					
         <!-- Steps Section -->
-        <div class="steps-section" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-3.png)">
+        <div class="steps-section" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-3.png)">
             <div class="auto-container">
                 <div class="sec-title centered">
                     <div class="title">How It Work</div>
@@ -1025,7 +1025,7 @@ Tempor incididunt ut labore et dolore magna aliqua.</div>
                         <div class="step-block col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box step-section-v7 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="icon-outer">
-                                    <div class="icon-box" style="background: url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/step-bg.png)">
+                                    <div class="icon-box" style="background: url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/step-bg.png)">
                                         <span class="icon">
                                             <i aria-hidden="true" class="flaticonv7 flaticonv7-product"></i>                                        </span>
                                     </div>
@@ -1039,7 +1039,7 @@ Tempor incididunt ut labore et dolore magna aliqua.</div>
                         <div class="step-block col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box step-section-v7 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="icon-outer">
-                                    <div class="icon-box" style="background: url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/step-bg.png)">
+                                    <div class="icon-box" style="background: url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/step-bg.png)">
                                         <span class="icon">
                                             <i aria-hidden="true" class="flaticonv7 flaticonv7-wallet"></i>                                        </span>
                                     </div>
@@ -1053,7 +1053,7 @@ Tempor incididunt ut labore et dolore magna aliqua.</div>
                         <div class="step-block col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box step-section-v7 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="icon-outer">
-                                    <div class="icon-box" style="background: url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/step-bg.png)">
+                                    <div class="icon-box" style="background: url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/step-bg.png)">
                                         <span class="icon">
                                             <i aria-hidden="true" class="flaticonv7 flaticonv7-tick"></i>                                        </span>
                                     </div>
@@ -1210,7 +1210,7 @@ Tempor incididunt ut labore et dolore magna aliqua.</div>
 
                                             <!-- Career Column -->
                                             <div class="career-column col-lg-4 col-md-12 col-sm-12">
-                                                <div class="inner-column" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.jpg)">
+                                                <div class="inner-column" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.jpg)">
                                                     <h4>Take Your Career <br> To Next Level</h4>
                                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
                                                     <div class="btn-box">
@@ -1333,7 +1333,7 @@ Tempor incididunt ut labore et dolore magna aliqua.</div>
 
                                             <!-- Career Column -->
                                             <div class="career-column col-lg-4 col-md-12 col-sm-12">
-                                                <div class="inner-column" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.jpg)">
+                                                <div class="inner-column" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/1.jpg)">
                                                     <h4>Take Your Career <br> To Next Level</h4>
                                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
                                                     <div class="btn-box">
@@ -1370,7 +1370,7 @@ Tempor incididunt ut labore et dolore magna aliqua.</div>
 				<div class="elementor-widget-container">
 					
         <!-- Feature Section -->
-        <div class="feature-section" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/2.jpg)">
+        <div class="feature-section" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/2.jpg)">
             <div class="auto-container">
                 <!-- Sec Title -->
                 <div class="sec-title light centered">
@@ -1543,7 +1543,7 @@ Latest Project</h2>
                             <div class="author-info">
                                 <div class="author-inner">
                                     <div class="author-image">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
                                     </div>
                                     <h6>Donald Gigliotti</h6>
                                     <div class="designation">Ceo Founder</div>
@@ -1562,7 +1562,7 @@ Latest Project</h2>
                             <div class="author-info">
                                 <div class="author-inner">
                                     <div class="author-image">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
                                     </div>
                                     <h6>Donald Gigliotti</h6>
                                     <div class="designation">Ceo Founder</div>
@@ -1581,7 +1581,7 @@ Latest Project</h2>
                             <div class="author-info">
                                 <div class="author-inner">
                                     <div class="author-image">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
                                     </div>
                                     <h6>Donald Gigliotti</h6>
                                     <div class="designation">Ceo Founder</div>
@@ -1600,7 +1600,7 @@ Latest Project</h2>
                             <div class="author-info">
                                 <div class="author-inner">
                                     <div class="author-image">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
                                     </div>
                                     <h6>Donald Gigliotti</h6>
                                     <div class="designation">Ceo Founder</div>
@@ -1619,7 +1619,7 @@ Latest Project</h2>
                             <div class="author-info">
                                 <div class="author-inner">
                                     <div class="author-image">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
                                     </div>
                                     <h6>Donald Gigliotti</h6>
                                     <div class="designation">Ceo Founder</div>
@@ -1638,7 +1638,7 @@ Latest Project</h2>
                             <div class="author-info">
                                 <div class="author-inner">
                                     <div class="author-image">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
                                     </div>
                                     <h6>Donald Gigliotti</h6>
                                     <div class="designation">Ceo Founder</div>
@@ -1657,7 +1657,7 @@ Latest Project</h2>
                             <div class="author-info">
                                 <div class="author-inner">
                                     <div class="author-image">
-                                        <img decoding="async" src="https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
+                                        <img decoding="async" src="/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/author-1.jpg" alt="" />
                                     </div>
                                     <h6>Donald Gigliotti</h6>
                                     <div class="designation">Ceo Founder</div>
@@ -1697,7 +1697,7 @@ Latest Project</h2>
         <!-- Location Section -->
         <section class="location-section">
             <div class="auto-container">
-                <div class="inner-container" style="background-image:url(https://themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-4.png)">
+                <div class="inner-container" style="background-image:url(/remote-assets/themexriver.com/wp/fastrans/fastrans/wp-content/uploads/sites/2/2022/01/pattern-4.png)">
                     <div class="title-box">
                         <h4>Global Location</h4>
                     </div>

@@ -4098,6 +4098,10 @@ section#ft-portfolio-5 .slick-dots {
 
 .ft-contact-form-wrapper {
   margin-top: 30px;
+  padding: 28px;
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+  background-color: #ffffff;
 }
 .ft-contact-form-wrapper input, .ft-contact-form-wrapper textarea {
   width: 100%;
@@ -7175,7 +7179,7 @@ span.footer-bg-shape {
   }
 
   .ft-about-text-wrapper {
-    margin: 0 auto;
+    margin: 30px auto;
     max-width: 570px;
   }
 
@@ -8232,6 +8236,25 @@ body:not(.no-js) .fading-up {
   }
   .ft-header-section.header-style-one .ft-header-cta-info .ft-header-cta-text h3 {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .elementor-element[data-id="c3ff6c8"] {
+    gap: 18px;
+    justify-content: flex-start;
+  }
+
+  .elementor-element[data-id="c3ff6c8"] > .elementor-element.e-con.e-child {
+    flex: 0 0 calc(16.666% - 15px);
+    max-width: calc(16.666% - 15px);
+  }
+
+  .elementor-element[data-id="c3ff6c8"] .elementor-widget-button,
+  .elementor-element[data-id="c3ff6c8"] .elementor-widget-container,
+  .elementor-element[data-id="c3ff6c8"] .elementor-button-wrapper,
+  .elementor-element[data-id="c3ff6c8"] .elementor-button {
+    width: 100%;
   }
 }
 

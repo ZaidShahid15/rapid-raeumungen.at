@@ -648,7 +648,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	<!-- Start of Breadcrumb section
 	============================================= -->
-	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="'https://themexriver.com/wp/fastrans/wp-content/themes/fastrans/assets/images/bg/bread-bg.jpg'" style="background-image:url('https://themexriver.com/wp/fastrans/wp-content/themes/fastrans/assets/images/bg/bread-bg.jpg')">
+	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="'/remote-assets/themexriver.com/wp/fastrans/wp-content/themes/fastrans/assets/images/bg/bread-bg.jpg'" style="background-image:url('/remote-assets/themexriver.com/wp/fastrans/wp-content/themes/fastrans/assets/images/bg/bread-bg.jpg')">
 		<span class="background_overlay"></span>
 		<span class="design-shape position-absolute"><img src="/wp-content/themes/fastrans/assets/images/shape/tmd-sh.png" alt="Awesome Image"></span>
 		<div class="container">

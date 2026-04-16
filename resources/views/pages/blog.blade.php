@@ -1324,13 +1324,24 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 /* ]]> */
 </script>
 <!-- Statistics script Complianz GDPR/CCPA -->
-						<script type="text/plain"							data-category="statistics">window['gtag_enable_tcf_support'] = false;
+<script type="text/plain"							data-category="statistics">window['gtag_enable_tcf_support'] = false;
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '', {
 	cookie_flags:'secure;samesite=none',
 	
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.wpr-grid-item a[href*="pin-up-casino-azrbaycanda-onlayn-kazino-pin-up14989"]').forEach(function (link) {
+        var article = link.closest('.wpr-grid-item');
+
+        if (article) {
+            article.remove();
+        }
+    });
 });
 </script>
 @endverbatim

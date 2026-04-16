@@ -3730,14 +3730,17 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 
 		var usedIds = {};
-		var list = document.createElement('ul');
-		list.className = 'elementor-toc__list-wrapper';
+		var rootList = document.createElement('ol');
+		rootList.className = 'elementor-toc__list-wrapper';
+		var listStack = [{ level: 1, list: rootList }];
+		var lastItemByLevel = {};
 
 		headings.forEach(function (heading, index) {
 			var headingText = heading.textContent.replace(/\s+/g, ' ').trim();
 			var headingId = heading.id || slugify(headingText, index + 1);
 			var uniqueId = headingId;
 			var suffix = 2;
+			var headingLevel = parseInt(heading.tagName.replace('H', ''), 10);
 
 			while (usedIds[uniqueId] || (document.getElementById(uniqueId) && document.getElementById(uniqueId) !== heading)) {
 				uniqueId = headingId + '-' + suffix;
@@ -3753,14 +3756,55 @@ document.addEventListener('DOMContentLoaded', function () {
 			var link = document.createElement('a');
 			link.className = 'elementor-toc__list-item-text elementor-toc__top-level';
 			link.href = '#' + uniqueId;
-			link.textContent = headingText;
+
+			var textWrapper = document.createElement('span');
+			textWrapper.className = 'elementor-toc__list-item-text-wrapper';
+			textWrapper.textContent = headingText;
+
+			link.appendChild(textWrapper);
+
+			while (listStack.length && headingLevel <= listStack[listStack.length - 1].level) {
+				listStack.pop();
+			}
+
+			var parentEntry = listStack[listStack.length - 1];
+			var parentItem = lastItemByLevel[parentEntry.level];
+
+			if (headingLevel > parentEntry.level + 1 && parentItem) {
+				headingLevel = parentEntry.level + 1;
+			}
+
+			if (headingLevel > parentEntry.level && parentItem) {
+				var childList = parentItem.querySelector(':scope > ol.elementor-toc__list-wrapper');
+
+				if (!childList) {
+					childList = document.createElement('ol');
+					childList.className = 'elementor-toc__list-wrapper';
+					parentItem.appendChild(childList);
+				}
+
+				parentEntry = { level: headingLevel - 1, list: childList };
+				listStack.push(parentEntry);
+			}
 
 			item.appendChild(link);
-			list.appendChild(item);
+			parentEntry.list.appendChild(item);
+			lastItemByLevel[headingLevel] = item;
+
+			Object.keys(lastItemByLevel).forEach(function (levelKey) {
+				if (parseInt(levelKey, 10) > headingLevel) {
+					delete lastItemByLevel[levelKey];
+				}
+			});
+
+			listStack = listStack.filter(function (entry, stackIndex, entries) {
+				return stackIndex === 0 || entry.level < headingLevel;
+			});
+			listStack.push({ level: headingLevel, list: parentEntry.list });
 		});
 
 		tocBody.innerHTML = '';
-		tocBody.appendChild(list);
+		tocBody.appendChild(rootList);
 	}
 
 	window.setTimeout(function () {

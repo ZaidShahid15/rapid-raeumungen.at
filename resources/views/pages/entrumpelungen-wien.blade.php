@@ -7,6 +7,28 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
 @endsection
 
 @section('head')
+<style>
+    .elementor-element.elementor-element-c59c93e .elementor-heading-title,
+    .elementor-element.elementor-element-62a3d61 .elementor-heading-title,
+    .elementor-element.elementor-element-c9f03b7 .elementor-heading-title,
+    .elementor-element.elementor-element-95b0741 .elementor-heading-title,
+    .elementor-element.elementor-element-efa29e0 .elementor-heading-title {
+        color: #FFFFFF !important;
+    }
+
+    .elementor-element.elementor-element-2e86357 .elementor-widget-container,
+    .elementor-element.elementor-element-2e86357 .elementor-widget-container *,
+    .elementor-element.elementor-element-f61321d .elementor-widget-container,
+    .elementor-element.elementor-element-f61321d .elementor-widget-container *,
+    .elementor-element.elementor-element-ad9e2a3 .elementor-widget-container,
+    .elementor-element.elementor-element-ad9e2a3 .elementor-widget-container *,
+    .elementor-element.elementor-element-0ae5ca8 .elementor-widget-container,
+    .elementor-element.elementor-element-0ae5ca8 .elementor-widget-container *,
+    .elementor-element.elementor-element-2306e89 .elementor-widget-container,
+    .elementor-element.elementor-element-2306e89 .elementor-widget-container * {
+        color: #FFFFFF !important;
+    }
+</style>
 @verbatim
 <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
