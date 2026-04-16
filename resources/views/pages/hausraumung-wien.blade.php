@@ -12,7 +12,9 @@ lang="en-US" prefix="og: https://ogp.me/ns#"
     .elementor-element.elementor-element-62a3d61 .elementor-heading-title,
     .elementor-element.elementor-element-c9f03b7 .elementor-heading-title,
     .elementor-element.elementor-element-95b0741 .elementor-heading-title,
-    .elementor-element.elementor-element-efa29e0 .elementor-heading-title {
+    .elementor-element.elementor-element-efa29e0 .elementor-heading-title,
+    .elementor-element.elementor-element-f4457b8 .elementor-heading-title,
+    .elementor-element.elementor-element-7ca9379 .elementor-heading-title {
         color: #FFFFFF !important;
     }
 
