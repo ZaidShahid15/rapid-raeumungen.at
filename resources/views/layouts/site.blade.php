@@ -4,8 +4,48 @@
     <meta name="robots" content="index, follow">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         @yield('head')
+        <style>
+            .site-form-alert {
+                max-width: 720px;
+                margin: 20px auto;
+                padding: 14px 18px;
+                border-radius: 12px;
+                border: 1px solid transparent;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                line-height: 1.5;
+                box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+            }
+
+            .site-form-alert.success {
+                background: #ecfdf3;
+                color: #166534;
+                border-color: #86efac;
+            }
+
+            .site-form-alert.empty,
+            .site-form-alert.error {
+                background: #fef2f2;
+                color: #991b1b;
+                border-color: #fca5a5;
+            }
+        </style>
     </head>
     <body @yield('body_attributes')>
+        @if (session('form_status'))
+            @php
+                $formStatus = session('form_status');
+                $formMessages = [
+                    'success' => 'Your form was submitted successfully.',
+                    'empty' => 'Please complete the form before submitting.',
+                    'error' => 'Something went wrong while sending your request.',
+                ];
+                $formMessage = $formMessages[$formStatus] ?? 'Form status updated.';
+            @endphp
+            <div class="site-form-alert {{ $formStatus }}" role="alert" aria-live="polite">
+                {{ $formMessage }}
+            </div>
+        @endif
         @php
             $pageContent = $__env->yieldContent('content');
             $pageContent = preg_replace_callback(
@@ -29,6 +69,21 @@
                         tokenInput.value = csrfToken;
                         form.prepend(tokenInput);
                     }
+
+                    form.setAttribute('data-direct-post', 'true');
+                    form.removeAttribute('onsubmit');
+
+                    form.addEventListener('submit', function (event) {
+                        if (form.dataset.nativeSubmitting === 'true') {
+                            return;
+                        }
+
+                        event.preventDefault();
+                        event.stopImmediatePropagation();
+
+                        form.dataset.nativeSubmitting = 'true';
+                        HTMLFormElement.prototype.submit.call(form);
+                    }, true);
                 });
 
                 document.querySelectorAll('input.method-input[name="#"]').forEach(function (input) {
@@ -70,9 +125,26 @@
                         error: 'Something went wrong while sending your request.'
                     }[status] || 'Form status updated.';
 
+                    window.alert(message);
+
                     document.querySelectorAll('.wpcf7-response-output').forEach(function (output) {
                         output.textContent = message;
                         output.style.display = 'block';
+                        output.style.visibility = 'visible';
+                        output.style.opacity = '1';
+                        output.style.width = '100%';
+                        output.style.minHeight = 'auto';
+                        output.style.margin = '16px 0 0';
+                        output.style.padding = '14px 18px';
+                        output.style.borderRadius = '12px';
+                        output.style.borderWidth = '1px';
+                        output.style.borderStyle = 'solid';
+                        output.style.fontSize = '15px';
+                        output.style.lineHeight = '1.5';
+                        output.style.boxSizing = 'border-box';
+                        output.style.backgroundColor = status === 'success' ? '#ecfdf3' : '#fef2f2';
+                        output.style.borderColor = status === 'success' ? '#86efac' : '#fca5a5';
+                        output.style.color = status === 'success' ? '#166534' : '#991b1b';
                     });
                 });
             </script>
