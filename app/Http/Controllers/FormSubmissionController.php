@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 
 class FormSubmissionController extends Controller
 {
-    private const RECIPIENT_EMAIL = '1zaidshaikh234@gmail.com';
+    private const RECIPIENT_EMAIL = 'karthaus.media@gmail.com';
 
     public function submit(Request $request, ?string $path = null): RedirectResponse
     {
