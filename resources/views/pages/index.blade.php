@@ -1230,9 +1230,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="wpr-step-wrap"></div>
 			<div class="wpr-form-fields-wrap wpr-labels-above">
 									<div class="wpr-form-field-type-text wpr-field-group wpr-column wpr-field-group-name elementor-repeater-item-c565951">
-						<input size="1 "type="text" name="form_fields[name]" id="form-field-name" class="wpr-form-field  wpr-form-field-textual" placeholder="Wie dürfen ma di nennen?">					</div>
+						<input size="1 "type="text" name="name" id="form-field-name" class="wpr-form-field  wpr-form-field-textual" placeholder="Wie dürfen ma di nennen?">					</div>
 									<div class="wpr-form-field-type-tel wpr-field-group wpr-column wpr-field-group-3c3e0f2 elementor-repeater-item-3c3e0f2">
-						<input size="1 "type="tel" name="form_fields[3c3e0f2]" id="form-field-3c3e0f2" class="wpr-form-field  wpr-form-field-textual" placeholder="Telefonnummer">					</div>
+						<input size="1 "type="tel" name="phone" id="form-field-3c3e0f2" class="wpr-form-field  wpr-form-field-textual" placeholder="Telefonnummer">					</div>
 				<div class="wpr-field-group wpr-stp-btns-wrap wpr-column wpr-form-field-type-submit" data-actions="[&quot;email&quot;]" data-redirect-url="" data-mailchimp-fields="{&quot;email_field&quot;:&quot;&quot;,&quot;first_name_field&quot;:&quot;&quot;,&quot;last_name_field&quot;:&quot;&quot;,&quot;address_field&quot;:&quot;&quot;,&quot;phone_field&quot;:&quot;&quot;,&quot;birthday_field&quot;:&quot;&quot;,&quot;group_id&quot;:&quot;&quot;}" data-list-id="">			<button type="submit" class="wpr-button">
 				<span >
 																<span>ANGEBOT EINHOLEN</span>

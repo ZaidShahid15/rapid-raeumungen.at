@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BlogPostController;
 use App\Http\Controllers\FormSubmissionController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,6 +21,8 @@ Route::get('/{path}', function (Request $request, string $path) {
 })->where('path', '.*[A-Z].*');
 
 Route::post('/{path?}', [FormSubmissionController::class, 'submit'])->where('path', '.*');
+
+Route::get('/sitemap.xml', SitemapController::class);
 
 Route::view('/', 'pages.index');
 Route::view('/ankauf-verlassenschaften-wien', 'pages.ankauf-verlassenschaften-wien');
