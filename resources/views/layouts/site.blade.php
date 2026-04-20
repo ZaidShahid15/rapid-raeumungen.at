@@ -29,6 +29,36 @@
                 color: #991b1b;
                 border-color: #fca5a5;
             }
+
+            .site-inline-form-alert {
+                display: none;
+                width: 100%;
+                margin-top: 14px;
+                padding: 12px 16px;
+                border-radius: 12px;
+                border: 1px solid transparent;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                line-height: 1.5;
+                box-sizing: border-box;
+            }
+
+            .site-inline-form-alert.is-visible {
+                display: block;
+            }
+
+            .site-inline-form-alert.success {
+                background: #ecfdf3;
+                color: #166534;
+                border-color: #86efac;
+            }
+
+            .site-inline-form-alert.empty,
+            .site-inline-form-alert.error {
+                background: #fef2f2;
+                color: #991b1b;
+                border-color: #fca5a5;
+            }
         </style>
     </head>
     <body @yield('body_attributes')>
@@ -62,7 +92,11 @@
                 var csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content');
 
                 document.querySelectorAll('form[method="post"]').forEach(function (form) {
-                    if (csrfToken && !form.querySelector('input[name="_token"]')) {
+                    function ensureCsrfToken() {
+                        if (!csrfToken || form.querySelector('input[name="_token"]')) {
+                            return;
+                        }
+
                         var tokenInput = document.createElement('input');
                         tokenInput.type = 'hidden';
                         tokenInput.name = '_token';
@@ -70,20 +104,84 @@
                         form.prepend(tokenInput);
                     }
 
-                    form.setAttribute('data-direct-post', 'true');
-                    form.removeAttribute('onsubmit');
+                    function ensureInlineAlert() {
+                        var existingAlert = form.querySelector('.site-inline-form-alert');
 
-                    form.addEventListener('submit', function (event) {
+                        if (existingAlert) {
+                            return existingAlert;
+                        }
+
+                        var alert = document.createElement('div');
+                        alert.className = 'site-inline-form-alert';
+                        alert.setAttribute('role', 'status');
+                        alert.setAttribute('aria-live', 'polite');
+
+                        var fieldsWrap = form.querySelector('.wpr-form-fields-wrap');
+                        if (fieldsWrap && fieldsWrap.parentNode) {
+                            fieldsWrap.parentNode.insertBefore(alert, fieldsWrap.nextSibling);
+                        } else {
+                            form.appendChild(alert);
+                        }
+
+                        return alert;
+                    }
+
+                    function updateInlineAlert(status, message) {
+                        var alert = ensureInlineAlert();
+                        alert.className = 'site-inline-form-alert is-visible ' + status;
+                        alert.textContent = message;
+                    }
+
+                    function markSubmitting() {
+                        form.querySelectorAll('button[type="submit"], input[type="submit"]').forEach(function (button) {
+                            button.disabled = true;
+                            button.style.opacity = '0.75';
+
+                            if (button.tagName === 'BUTTON') {
+                                var textNode = button.querySelector('span:last-child span') || button.querySelector('span:last-child') || button;
+                                if (!button.dataset.originalLabel) {
+                                    button.dataset.originalLabel = textNode.textContent.trim();
+                                }
+                                textNode.textContent = 'WIRD GESENDET...';
+                            } else if (!button.dataset.originalLabel) {
+                                button.dataset.originalLabel = button.value;
+                                button.value = 'WIRD GESENDET...';
+                            }
+                        });
+                    }
+
+                    function submitFormDirectly(event) {
                         if (form.dataset.nativeSubmitting === 'true') {
                             return;
                         }
 
-                        event.preventDefault();
-                        event.stopImmediatePropagation();
+                        if (event) {
+                            event.preventDefault();
+                            event.stopImmediatePropagation();
+                        }
 
+                        ensureCsrfToken();
+                        updateInlineAlert('success', 'Anfrage wird gesendet...');
+                        markSubmitting();
                         form.dataset.nativeSubmitting = 'true';
                         HTMLFormElement.prototype.submit.call(form);
+                    }
+
+                    ensureCsrfToken();
+                    ensureInlineAlert();
+                    form.setAttribute('data-direct-post', 'true');
+                    form.removeAttribute('onsubmit');
+
+                    form.addEventListener('submit', function (event) {
+                        submitFormDirectly(event);
                     }, true);
+
+                    form.querySelectorAll('button[type="submit"], input[type="submit"]').forEach(function (button) {
+                        button.addEventListener('click', function (event) {
+                            // Some builder widgets stop the native submit on click before the form submit event fires.
+                            submitFormDirectly(event);
+                        }, true);
+                    });
                 });
 
                 document.querySelectorAll('input.method-input[name="#"]').forEach(function (input) {
@@ -125,8 +223,6 @@
                         error: 'Something went wrong while sending your request.'
                     }[status] || 'Form status updated.';
 
-                    window.alert(message);
-
                     document.querySelectorAll('.wpcf7-response-output').forEach(function (output) {
                         output.textContent = message;
                         output.style.display = 'block';
@@ -146,6 +242,21 @@
                         output.style.borderColor = status === 'success' ? '#86efac' : '#fca5a5';
                         output.style.color = status === 'success' ? '#166534' : '#991b1b';
                     });
+
+                    document.querySelectorAll('form.wpr-form, form[method="post"]').forEach(function (form) {
+                        var inlineAlert = form.querySelector('.site-inline-form-alert');
+                        if (!inlineAlert) {
+                            return;
+                        }
+
+                        inlineAlert.className = 'site-inline-form-alert is-visible ' + status;
+                        inlineAlert.textContent = message;
+                    });
+
+                    var firstInlineAlert = document.querySelector('.site-inline-form-alert.is-visible');
+                    if (firstInlineAlert) {
+                        firstInlineAlert.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
                 });
             </script>
         @endif

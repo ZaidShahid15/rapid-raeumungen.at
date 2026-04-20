@@ -6,7 +6,7 @@ class FormMailHelper
 {
     public const RECIPIENT_EMAILS = [
         'ast.mediainternational@gmail.com',
-        'office@elektro-zentrum.at',
+        'office@rapid-raeumungen.at',
     ];
 
     public static function extractPayload(array $input): array

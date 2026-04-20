@@ -699,7 +699,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-element elementor-element-4f78dd7 elementor-widget elementor-widget-button" data-id="4f78dd7" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="/email/public/">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/kontakt/">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Kontaktformular</span>
 					</span>
@@ -1729,7 +1729,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-61cb1c3 elementor-widget elementor-widget-heading" data-id="61cb1c3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default"><a href="/email/public/">Anfrage</a></span>				</div>
+					<span class="elementor-heading-title elementor-size-default"><a href="/kontakt/">Anfrage</a></span>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-126ad40 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-equal-height-no e-con e-child" data-id="126ad40" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">

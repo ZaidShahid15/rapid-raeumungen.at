@@ -6,6 +6,9 @@ use App\Http\Controllers\SitemapController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+Route::permanentRedirect('/email/public', '/kontakt/');
+Route::permanentRedirect('/email/public/', '/kontakt/');
+
 Route::get('/{path}', function (Request $request, string $path) {
     $normalizedPath = trim($path, '/');
     $lowercasePath = strtolower($normalizedPath);
