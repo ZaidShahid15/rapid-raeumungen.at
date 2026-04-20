@@ -14,9 +14,16 @@ class FormSubmissionController extends Controller
     public function submit(Request $request, ?string $path = null): RedirectResponse
     {
         $payload = FormMailHelper::extractPayload($request->except('_token'));
+        $formFeedbackTarget = [
+            'form_id' => $request->input('form_id'),
+            'page_id' => $request->input('page_id'),
+            'post_id' => $request->input('post_id'),
+        ];
 
         if ($payload === []) {
-            return back()->with('form_status', 'empty');
+            return back()
+                ->with('form_status', 'empty')
+                ->with('form_feedback_target', $formFeedbackTarget);
         }
 
         $pagePath = '/' . ltrim($path ?? '', '/');
@@ -42,14 +49,18 @@ class FormSubmissionController extends Controller
                 }
             );
 
-            return back()->with('form_status', 'success');
+            return back()
+                ->with('form_status', 'success')
+                ->with('form_feedback_target', $formFeedbackTarget);
         } catch (\Throwable $exception) {
             Log::error('Form submission mail failed.', [
                 'page' => $pagePath,
                 'error' => $exception->getMessage(),
             ]);
 
-            return back()->with('form_status', 'error');
+            return back()
+                ->with('form_status', 'error')
+                ->with('form_feedback_target', $formFeedbackTarget);
         }
     }
 }

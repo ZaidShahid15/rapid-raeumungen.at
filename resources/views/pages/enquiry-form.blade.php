@@ -1134,7 +1134,7 @@ function validateStep4() {
  }
 
  if (isValid) {
- alert('Request submitted successfully!');
+ alert('Ihr Formular wurde erfolgreich gesendet.');
  // Here you can submit the form or proceed with further actions
  }
 }

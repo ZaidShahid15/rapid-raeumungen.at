@@ -62,20 +62,6 @@
         </style>
     </head>
     <body @yield('body_attributes')>
-        @if (session('form_status'))
-            @php
-                $formStatus = session('form_status');
-                $formMessages = [
-                    'success' => 'Your form was submitted successfully.',
-                    'empty' => 'Please complete the form before submitting.',
-                    'error' => 'Something went wrong while sending your request.',
-                ];
-                $formMessage = $formMessages[$formStatus] ?? 'Form status updated.';
-            @endphp
-            <div class="site-form-alert {{ $formStatus }}" role="alert" aria-live="polite">
-                {{ $formMessage }}
-            </div>
-        @endif
         @php
             $pageContent = $__env->yieldContent('content');
             $pageContent = preg_replace_callback(
@@ -217,13 +203,40 @@
             <script>
                 document.addEventListener('DOMContentLoaded', function () {
                     var status = @json(session('form_status'));
+                    var feedbackTarget = @json(session('form_feedback_target'));
                     var message = {
-                        success: 'Your form was submitted successfully.',
+                        success: 'Ihr Formular wurde erfolgreich gesendet.',
                         empty: 'Please complete the form before submitting.',
                         error: 'Something went wrong while sending your request.'
                     }[status] || 'Form status updated.';
 
-                    document.querySelectorAll('.wpcf7-response-output').forEach(function (output) {
+                    function matchesFeedbackTarget(form) {
+                        if (!feedbackTarget || typeof feedbackTarget !== 'object') {
+                            return false;
+                        }
+
+                        return ['form_id', 'page_id', 'post_id'].every(function (fieldName) {
+                            var expectedValue = feedbackTarget[fieldName];
+
+                            if (expectedValue === null || expectedValue === undefined || expectedValue === '') {
+                                return true;
+                            }
+
+                            var field = form.querySelector('input[name="' + fieldName + '"]');
+                            return field && field.value === String(expectedValue);
+                        });
+                    }
+
+                    var targetForm = Array.prototype.find.call(
+                        document.querySelectorAll('form.wpr-form, form[method="post"]'),
+                        matchesFeedbackTarget
+                    );
+
+                    if (!targetForm) {
+                        return;
+                    }
+
+                    targetForm.querySelectorAll('.wpcf7-response-output').forEach(function (output) {
                         output.textContent = message;
                         output.style.display = 'block';
                         output.style.visibility = 'visible';
@@ -243,19 +256,11 @@
                         output.style.color = status === 'success' ? '#166534' : '#991b1b';
                     });
 
-                    document.querySelectorAll('form.wpr-form, form[method="post"]').forEach(function (form) {
-                        var inlineAlert = form.querySelector('.site-inline-form-alert');
-                        if (!inlineAlert) {
-                            return;
-                        }
-
+                    var inlineAlert = targetForm.querySelector('.site-inline-form-alert');
+                    if (inlineAlert) {
                         inlineAlert.className = 'site-inline-form-alert is-visible ' + status;
                         inlineAlert.textContent = message;
-                    });
-
-                    var firstInlineAlert = document.querySelector('.site-inline-form-alert.is-visible');
-                    if (firstInlineAlert) {
-                        firstInlineAlert.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        inlineAlert.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     }
                 });
             </script>

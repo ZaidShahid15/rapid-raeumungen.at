@@ -521,6 +521,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	justify-content: center !important;
 	padding: 34px 22px !important;
 }
+.home-hero-showcase .showcase-features .showcase-feature.phone-feature{
+	text-decoration: none !important;
+	cursor: pointer !important;
+}
 .home-hero-showcase .showcase-features .showcase-feature:last-child .showcase-feature-icon{
 	position: relative !important;
 	width: 58px !important;
@@ -552,13 +556,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 .home-hero-showcase .showcase-features .showcase-feature:last-child .showcase-feature-text h3{
 	margin: 0 !important;
-	font-size: 0 !important;
-	line-height: 1 !important;
-	color: transparent !important;
-}
-.home-hero-showcase .showcase-features .showcase-feature:last-child .showcase-feature-text h3::before{
-	content: "+43 1 4420489" !important;
 	font-size: 20px !important;
+	line-height: 1 !important;
 	font-weight: 700 !important;
 	letter-spacing: 0.2px !important;
 	color: #fff !important;
@@ -736,7 +735,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		width: 100% !important;
 		padding: 16px 22px 16px 70px !important;
 	}
-	.home-hero-showcase .showcase-features .showcase-feature:last-child .showcase-feature-text h3::before{
+	.home-hero-showcase .showcase-features .showcase-feature:last-child .showcase-feature-text h3{
 		font-size: 18px !important;
 	}
 	.home-hero-showcase .showcase-feature-icon{
@@ -1464,13 +1463,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<p>Pünktlich, ehrlich und sichtbar organisiert.</p>
 							</div>
 						</div>
-						<div class="showcase-feature">
+						<a class="showcase-feature phone-feature" href="tel:+4314420489" aria-label="Rufen Sie uns an unter +43 1 4420489">
 							<div class="showcase-feature-icon"><i class="fas fa-award" aria-hidden="true"></i></div>
 							<div class="showcase-feature-text">
-								<h3>Professionell</h3>
+								<h3>+43 1 4420489</h3>
 								<p>Erfahrene Experten für jedes Projekt.</p>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
